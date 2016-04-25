@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CfmsApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CfmsApplication.class, args);
-	}
+
+
+    }
 }
