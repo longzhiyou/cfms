@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CFMS Demon</title>
+
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+
+    <!--<link rel="stylesheet" href="assets/vendor/fonts/google/fonts-google.css">-->
+    <!--<link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet'>-->
+    <!--<link rel="stylesheet" href="bower_components/typo.css/typo.css">-->
+
+</head>
+<body>
+
+<h1 class="animated infinite bounce">CFMS Demon  </h1>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header"><a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group"><input type="text" class="form-control"
+                                       placeholder="Search"></div>
+        <button type="submit" class="btn btn-default">左按钮</button>
+    </form>
+    <form class="navbar-form navbar-right" role="search">
+        <div class="form-group"><input type="text" class="form-control"
+                                       placeholder="Search"></div>
+        <button type="submit" class="btn btn-default">右按钮</button>
+    </form>
+</nav>
+
+
+
+<div class="container-fluid typo">
+
+    <form id="submitForm" class="form-horizontal" role="form">
+
+        <div class="form-group ">
+
+            <button class="btn btn-primary">
+                <i class="glyphicon glyphicon-search"></i>
+                btn
+            </button>
+
+
+        </div>
+        <div class="form-group ">
+
+
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+
+                                <label class="col-md-1 control-label">
+                                    姓名长
+                                </label>
+                                <div class="col-md-2">
+                                    <input  class="form-control" title="邓蔚蓝" value="邓蔚蓝"/>
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-group">
+                                <!--<div class="row">-->
+                                <!--<div class="col-md-6">-->
+
+                                <label class="col-md-1 control-label">
+                                    出生日期
+                                </label>
+                                <div class="col-md-2">
+                                    <input  id="dateOfBirth" class="form-control" value="1981-06-11"/>
+                                </div>
+
+                                <label class="col-md-1 control-label">
+                                    民族
+                                </label>
+                                <div class="col-md-2">
+                                    <select required="required" class="form-control">
+                                        <option value="1" selected="selected">汉族</option>
+                                        <option value="2">蒙古族</option>
+                                        <option value="3">彝族</option>
+                                        <option value="4">侗族</option>
+                                        <option value="5">哈萨克族</option>
+                                        <option value="6">畲族</option>
+                                        <option value="7">纳西族</option>
+                                        <option value="8">仫佬族</option>
+                                        <option value="9">仡佬族</option>
+                                        <option value="10">怒族</option>
+                                        <option value="11">保安族</option>
+                                        <option value="12">鄂伦春族</option>
+                                        <option value="13">回族</option>
+                                        <option value="14">壮族</option>
+                                        <option value="15">瑶族</option>
+                                        <option value="16">傣族</option>
+                                        <option value="17">高山族</option>
+                                        <option value="18">景颇族</option>
+                                        <option value="19">羌族</option>
+                                        <option value="20">锡伯族</option>
+                                        <option value="21">乌孜别克族</option>
+                                        <option value="22">裕固族</option>
+                                        <option value="23">赫哲族</option>
+                                        <option value="24">藏族</option>
+                                        <option value="25">布依族</option>
+                                        <option value="26">白族</option>
+                                        <option value="27">黎族</option>
+                                        <option value="28">拉祜族</option>
+                                        <option value="29">柯尔克孜族</option>
+                                        <option value="30">布朗族</option>
+                                        <option value="31">阿昌族</option>
+                                        <option value="32">俄罗斯族</option>
+                                        <option value="33">京族</option>
+                                        <option value="34">门巴族</option>
+                                        <option value="35">维吾尔族</option>
+                                        <option value="36">朝鲜族</option>
+                                        <option value="37">土家族</option>
+                                        <option value="38">傈僳族</option>
+                                        <option value="39">水族</option>
+                                        <option value="40">土族</option>
+                                        <option value="41">撒拉族</option>
+                                        <option value="42">普米族</option>
+                                        <option value="43">鄂温克族</option>
+                                        <option value="44">塔塔尔族</option>
+                                        <option value="45">珞巴族</option>
+                                        <option value="46">苗族</option>
+                                        <option value="47">满族</option>
+                                        <option value="48">哈尼族</option>
+                                        <option value="49">佤族</option>
+                                        <option value="50">东乡族</option>
+                                        <option value="51">达斡尔族</option>
+                                        <option value="52">毛南族</option>
+                                        <option value="53">塔吉克族</option>
+                                        <option value="54">德昂族</option>
+                                        <option value="55">独龙族</option>
+                                        <option value="56">基诺族</option>
+
+                                    </select>
+                                </div>
+
+                                <!--</div>-->
+                                <!--</div>-->
+
+
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-md-1 control-label">
+                                    证件类型
+                                </label>
+                                <div class="col-md-2">
+                                    <select required="required" class="form-control">
+                                        <option value="1" selected="selected">身份证</option>
+                                        <option value="2">护照</option>
+                                        <option value="3">军官证</option>
+
+
+                                    </select>
+                                </div>
+
+                                <label  class="col-md-1 control-label">
+                                    证件号
+                                </label>
+                                <div class="col-md-2">
+                                    <input   class="form-control" value="542222198106115010">
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-md-1 control-label">
+                                    证件住址
+                                </label>
+                                <div class="col-md-5">
+                                    <textarea  rows="2" class="form-control" >黑龙江省 伊春市 伊春市</textarea>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!--</form>-->
+                </div>
+                <div class="col-md-2 col-md-pull-4">
+
+                    <!--<img src="assets/img/profile-pic.jpg" class="img-thumbnail">-->
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </form>
+
+
+
+</div>
+
+<table>
+    <tr>
+        <td><i class="fa fa-1x fa-file-pdf-o"></i></td>
+        <td><i class="fa fa-1x fa-cog"></i></td>
+        <td><i class="fa fa-1x fa-shield"></i></td>
+        <td><i class="fa fa-1x fa-ship"></i></td>
+        <td><i class="fa fa-1x fa-angle-double-up"></i></td>
+        <td><i class="fa fa-1x fa-angle-double-down"></i></td>
+        <td><i class="fa fa-1x fa-file-o"></i></td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-2x fa-file-pdf-o"></i></td>
+        <td><i class="fa fa-2x fa-cog"></i></td>
+        <td><i class="fa fa-2x fa-shield"></i></td>
+        <td><i class="fa fa-2x fa-ship"></i></td>
+        <td><i class="fa fa-2x fa-angle-double-up"></i></td>
+        <td><i class="fa fa-2x fa-angle-double-down"></i></td>
+        <td><i class="fa fa-2x fa-file-o"></i></td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-3x fa-file-pdf-o"></i></td>
+        <td><i class="fa fa-3x fa-cog"></i></td>
+        <td><i class="fa fa-3x fa-shield"></i></td>
+        <td><i class="fa fa-3x fa-ship"></i></td>
+        <td><i class="fa fa-3x fa-angle-double-up"></i></td>
+        <td><i class="fa fa-3x fa-angle-double-down"></i></td>
+        <td><i class="fa fa-3x fa-file-o"></i></td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-4x fa-file-pdf-o"></i></td>
+        <td><i class="fa fa-4x fa-cog"></i></td>
+        <td><i class="fa fa-4x fa-shield"></i></td>
+        <td><i class="fa fa-4x fa-ship"></i></td>
+        <td><i class="fa fa-4x fa-angle-double-up"></i></td>
+        <td><i class="fa fa-4x fa-angle-double-down"></i></td>
+        <td><i class="fa fa-4x fa-file-o"></i></td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-5x fa-file-pdf-o"></i></td>
+        <td><i class="fa fa-5x fa-cog"></i></td>
+        <td><i class="fa fa-5x fa-shield"></i></td>
+        <td><i class="fa fa-5x fa-ship"></i></td>
+        <td><i class="fa fa-5x fa-angle-double-up"></i></td>
+        <td><i class="fa fa-5x fa-angle-double-down"></i></td>
+        <td><i class="fa fa-5x fa-file-o"></i></td>
+    </tr>
+</table>
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/moment/min/moment-with-locales.js"></script>
+<script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+<script type="text/javascript">
+    // 初期处理
+    $(function () {
+
+        var date = $('#dateOfBirth').val();
+
+        $('#dateOfBirth').daterangepicker(
+                {
+                    singleDatePicker:true
+                }
+
+        );
+
+//        if (date) {
+//            $('#dateOfBirth').data('daterangepicker').setStartDate(date);
+//        }
+
+
+
+    });
+
+</script>
+</body>
+</html>
