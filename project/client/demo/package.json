@@ -4,6 +4,9 @@
   "description": "this is demo for cfms",
   "main": "index.js",
   "scripts": {
+
+
+    "bower-install": "bower install",
     "fis3-debug": "fis3 release -d ./output ",
     "fis3-release": "fis3 release -wL",
     "fis3-prod": "fis3 release prod -d ./prod ",
