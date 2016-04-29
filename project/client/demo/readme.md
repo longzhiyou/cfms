@@ -8,6 +8,6 @@
 * bower上没有的,统一放在vendor文件夹下面
 
 ### git 
-* https://github.com/daneden/animate.css.git#3.5.1
-* https://github.com/dangrossman/bootstrap-daterangepicker.git
+* bower install https://github.com/daneden/animate.css.git#3.5.1 -save
+* bower install https://github.com/dangrossman/bootstrap-daterangepicker.git -save
 * bower install https://github.com/sofish/typo.css.git
