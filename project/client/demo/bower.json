@@ -20,6 +20,12 @@
     "angular": "angularjs#^1.5.5",
     "font-awesome": "^4.6.1",
     "animate.css": "https://github.com/daneden/animate.css.git#3.5.1",
-    "bootstrap-daterangepicker": "https://github.com/dangrossman/bootstrap-daterangepicker.git#^2.1.19"
+    "bootstrap-daterangepicker": "https://github.com/dangrossman/bootstrap-daterangepicker.git#^2.1.19",
+    "angular-ui-router": "^0.2.18",
+    "oclazyload": "ocLazyLoad#^1.0.9",
+    "AngularJS-Toaster": "angularjs-toaster#^2.0.0",
+    "angular-logger-max": "^1.2.0",
+    "ng-idle": "https://github.com/HackedByChinese/ng-idle.git#^1.2.2",
+    "angular-translate": "^2.11.0"
   }
 }

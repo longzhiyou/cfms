@@ -3,9 +3,9 @@
 // });
 
 //清除其他配置，只剩下如下配置
-fis.match('*.{js,css,png}', {
-    useHash: true
-});
+// fis.match('*.{js,css,png}', {
+//     useHash: true
+// });
 
 // fis.match('*', {
 //   useHash: false
