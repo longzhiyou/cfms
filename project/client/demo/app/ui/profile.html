@@ -2,8 +2,9 @@
 
 <div  class="container content profile">
 
-    <div class="row margin-top-1">
 
+    <!--select-->
+    <div class="row">
 
         <!--详细说明 http://www.tuicool.com/articles/RniIRv-->
 
@@ -44,6 +45,51 @@
         <!--</select>-->
 
     </div>
+
+    <!--alert-->
+    <div class="row">
+        <script type="text/ng-template" id="alert.html">
+            <div class="alert" style="background-color:#fa39c3;color:white" role="alert">
+                <div ng-transclude></div>
+            </div>
+        </script>
+
+        <uib-alert ng-repeat="alert in vm.alerts" type="{{alert.type}}" close="vm.closeAlert($index)">{{alert.msg}}</uib-alert>
+        <button type="button" class='btn btn-default' ng-click="vm.addAlert()">Add Alert</button>
+    </div>
+    <!--end alert-->
+
+    <!--modal-->
+    <div class="row">
+
+        <script type="text/ng-template" id="myModalContent.html">
+            <div class="modal-header">
+                <h3 class="modal-title">I'm a modal!</h3>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li ng-repeat="item in items">
+                        <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
+                    </li>
+                </ul>
+                Selected: <b>{{ selected.item }}</b>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+                <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+            </div>
+        </script>
+
+        <button type="button" class="btn btn-default" ng-click="open()">Open me!</button>
+        <button type="button" class="btn btn-default" ng-click="open('lg')">Large modal</button>
+        <button type="button" class="btn btn-default" ng-click="open('sm')">Small modal</button>
+        <button type="button" class="btn btn-default" ng-click="toggleAnimation()">Toggle Animation ({{ animationsEnabled }})</button>
+        <div ng-show="selected">Selection from a modal: {{ selected }}</div>
+
+    </div>
+
+
+
 
 </div><!--/container-->
 <!--=== End Profile ===-->

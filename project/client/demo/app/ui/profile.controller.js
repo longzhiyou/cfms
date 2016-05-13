@@ -3,15 +3,41 @@
 
     angular.module("app.ui").controller('ProfileController', ProfileController);
 
-    ProfileController.$inject = ['$rootScope', '$scope'];
+    ProfileController.$inject = ['$scope','$uibModal', '$log'];
 
     /////////////////////
-    function ProfileController($rootScope, $scope) {
+    function ProfileController($scope, $uibModal, $log) {
 
-        //$scope.lang = $rootScope.lang;
+        $scope.items = ['item1', 'item2', 'item3'];
+
+        $scope.animationsEnabled = true;
+
+        $scope.open = function (size) {
+
+            var modalInstance = $uibModal.open({
+                animation: $scope.animationsEnabled,
+                templateUrl: 'myModalContent.html',
+                controller: 'ModalInstanceCtrl',
+                size: size,
+                resolve: {
+                    items: function () {
+                        return $scope.items;
+                    }
+                }
+            });
+
+            modalInstance.result.then(function (selectedItem) {
+                $scope.selected = selectedItem;
+            }, function () {
+                $log.info('Modal dismissed at: ' + new Date());
+            });
+        };
+
+        $scope.toggleAnimation = function () {
+            $scope.animationsEnabled = !$scope.animationsEnabled;
+        };
+
         var vm = this;
-
-
 
         var Cities = [{ id: 1, name: '北京' }, { id: 2, name: '上海' }, { id: 3, name: '广州' }];
         vm.mycity = Cities[0];
@@ -68,7 +94,52 @@
         vm.selected = vm.items[0];
 
 
+        vm.alerts = [
+            { type: 'danger', msg: 'Oh snap! Change a few things up and try submitting again.' },
+            { type: 'success', msg: 'Well done! You successfully read this important alert message.' }
+        ];
+
+        vm.addAlert = function() {
+            vm.alerts.push({msg: 'Another alert!'});
+        };
+
+        vm.closeAlert = function(index) {
+            vm.alerts.splice(index, 1);
+        };
+
+
     }
 
 }(this.angular));
+
+
+
+(function (angular) {
+    'use strict';
+
+    angular.module("app.ui").controller('ModalInstanceCtrl', ModalInstanceCtrl);
+
+    ModalInstanceCtrl.$inject = ['$scope','$uibModalInstance', 'items'];
+
+    /////////////////////
+    function ModalInstanceCtrl($scope, $uibModalInstance, items) {
+
+        $scope.items = items;
+        $scope.selected = {
+            item: $scope.items[0]
+        };
+
+        $scope.ok = function () {
+            $uibModalInstance.close($scope.selected.item);
+        };
+
+        $scope.cancel = function () {
+            $uibModalInstance.dismiss('cancel');
+        };
+
+    }
+
+}(this.angular));
+
+
 
