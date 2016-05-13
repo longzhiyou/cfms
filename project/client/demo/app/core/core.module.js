@@ -6,6 +6,7 @@
          * Angular modules
          */
         'ui.router',        // Routing
+        'ui.bootstrap',
         // 'ui.grid',
         // 'ui.grid.edit',
         // 'ui.grid.selection',
