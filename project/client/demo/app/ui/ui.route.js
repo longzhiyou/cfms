@@ -20,6 +20,8 @@
                 {
                     url: '/ui/profile',
                     templateUrl: 'app/ui/profile.html',
+                    controller: 'ProfileController',
+                    controllerAs: 'vm',
                     resolve: {
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
