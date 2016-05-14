@@ -1,4 +1,43 @@
 /* Add here all your css styles (customizations) */
+
+.element {
+    position: relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.element:before {
+    content: "\f1fe";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #ee7b48;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.date-formats {
+    color: #fff;
+    float: left;
+    text-align: center;
+    background: #72c02c;
+    margin: 7px 13px 0 0;
+    padding: 7px 10px 4px;
+}
+
+.date-formats span {
+    display: block;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 25px;
+}
+
 .nav, .pagination, .carousel, .panel-title a {
     cursor: pointer;
 }

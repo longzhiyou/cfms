@@ -13,7 +13,7 @@
 9. Header - Fixed Boxed
 -----------------------------------------------------------------------*/
 body.header-fixed-space-default {
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 @media (max-width: 991px) {

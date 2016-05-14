@@ -2,7 +2,11 @@
     'use strict';
 
     angular.module('app.ui', [
-        'app.core'
+        'app.core',
+        'daterangepicker',
+        'angularMoment'
+
+        // 'ui.calendar'
     ]);
 
 })();

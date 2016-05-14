@@ -5,9 +5,9 @@
  */
 (function (angular) {
 
-    angular.module("app").factory('appStart', ['$rootScope', 'Logger', 'auth', factory]);
+    angular.module("app").factory('appStart', ['$rootScope', 'Logger', 'auth', 'amMoment', factory]);
 
-    function factory($rootScope, Logger, auth) {
+    function factory($rootScope, Logger, auth, amMoment) {
 
         var appStart = {
             reportStateChangesEnabled: false,
@@ -18,6 +18,8 @@
         function start() {
 
             Logger.debug = true;
+            moment.locale('zh-cn');
+            // amMoment.changeLocale('zh-cn');
 
             console.log("cfms is loaded and running on ");
             // Trigger initial loading of data from server

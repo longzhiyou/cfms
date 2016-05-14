@@ -3,6 +3,212 @@
 <div  class="container content profile">
 
 
+    <div class="row">
+        <h2 class="text-center">{{ vm.calendarTitle }}</h2>
+        <div class="col-md-6 text-center">
+            <div class="btn-group">
+
+                <button
+                        class="btn btn-primary"
+                        mwl-date-modifier
+                        date="vm.viewDate"
+                        decrement="vm.calendarView">
+                    Previous
+                </button>
+                <button
+                        class="btn btn-default"
+                        mwl-date-modifier
+                        date="vm.viewDate"
+                        set-to-today>
+                    Today
+                </button>
+                <button
+                        class="btn btn-primary"
+                        mwl-date-modifier
+                        date="vm.viewDate"
+                        increment="vm.calendarView">
+                    Next
+                </button>
+            </div>
+        </div>
+
+        <br class="visible-xs visible-sm">
+
+        <div class="col-md-6 text-center">
+            <div class="btn-group">
+                <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'year'">Year</label>
+                <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
+                <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
+                <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'day'">Day</label>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <mwl-calendar
+            events="vm.events"
+            view="vm.calendarView"
+            view-title="vm.calendarTitle"
+            view-date="vm.viewDate"
+            on-event-click="vm.eventClicked(calendarEvent)"
+            on-event-times-changed="vm.eventTimesChanged(calendarEvent); calendarEvent.startsAt = calendarNewEventStart; calendarEvent.endsAt = calendarNewEventEnd"
+            edit-event-html="'<i class=\'glyphicon glyphicon-pencil\'></i>'"
+            delete-event-html="'<i class=\'glyphicon glyphicon-remove\'></i>'"
+            on-edit-event-click="vm.eventEdited(calendarEvent)"
+            on-delete-event-click="vm.eventDeleted(calendarEvent)"
+            cell-is-open="vm.isCellOpen"
+            day-view-start="06:00"
+            day-view-end="22:00"
+            day-view-split="30"
+            cell-modifier="vm.modifyCell(calendarCell)">
+    </mwl-calendar>
+
+    <br><br><br>
+
+    <h3 id="event-editor">
+        Edit events
+        <button
+                class="btn btn-primary pull-right"
+                ng-click="vm.events.push({title: 'New event', type: 'important', draggable: true, resizable: true})">
+            Add new
+        </button>
+        <div class="clearfix"></div>
+    </h3>
+
+    <table class="table table-bordered">
+
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Starts at</th>
+            <th>Ends at</th>
+            <th>Remove</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr ng-repeat="event in vm.events track by $index">
+            <td>
+                <input
+                        type="text"
+                        class="form-control"
+                        ng-model="event.title">
+            </td>
+            <td>
+                <select ng-model="event.type" class="form-control">
+                    <option value="important">Important</option>
+                    <option value="warning">Warning</option>
+                    <option value="info">Info</option>
+                    <option value="inverse">Inverse</option>
+                    <option value="success">Success</option>
+                    <option value="special">Special</option>
+                </select>
+            </td>
+            <td>
+                <p class="input-group" style="max-width: 250px">
+                    <input
+                            type="text"
+                            class="form-control"
+                            readonly
+                            uib-datepicker-popup="dd MMMM yyyy"
+                            ng-model="event.startsAt"
+                            is-open="event.startOpen"
+                            close-text="Close">
+            <span class="input-group-btn">
+              <button
+                      type="button"
+                      class="btn btn-default"
+                      ng-click="vm.toggle($event, 'startOpen', event)">
+                <i class="glyphicon glyphicon-calendar"></i>
+              </button>
+            </span>
+                </p>
+                <uib-timepicker
+                        ng-model="event.startsAt"
+                        hour-step="1"
+                        minute-step="15"
+                        show-meridian="true">
+                </uib-timepicker>
+            </td>
+            <td>
+                <p class="input-group" style="max-width: 250px">
+                    <input
+                            type="text"
+                            class="form-control"
+                            readonly
+                            uib-datepicker-popup="dd MMMM yyyy"
+                            ng-model="event.endsAt"
+                            is-open="event.endOpen"
+                            close-text="Close">
+            <span class="input-group-btn">
+              <button
+                      type="button"
+                      class="btn btn-default"
+                      ng-click="vm.toggle($event, 'endOpen', event)">
+                <i class="glyphicon glyphicon-calendar"></i>
+              </button>
+            </span>
+                </p>
+                <uib-timepicker
+                        ng-model="event.endsAt"
+                        hour-step="1"
+                        minute-step="15"
+                        show-meridian="true">
+                </uib-timepicker>
+            </td>
+            <td>
+                <button
+                        class="btn btn-danger"
+                        ng-click="vm.events.splice($index, 1)">
+                    Delete
+                </button>
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+
+</div>
+<!--ui-calendar-->
+<div class="row">
+    <!--<div ui-calendar ng-model="eventSources"></div>-->
+    <!--<div ui-calendar="uiConfig.calendar" ng-model="eventSources">-->
+</div>
+
+<!--button-->
+<div class="row">
+    <h4>Single toggle</h4>
+    <pre>{{singleModel}}</pre>
+    <button type="button" class="btn btn-primary" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1"
+            btn-checkbox-false="0">
+        Single Toggle
+    </button>
+
+</div>
+<!--date
+https://github.com/fragaria/angular-daterangepicker
+http://fragaria.github.io/angular-daterangepicker/
+ -->
+
+<div class="row">
+    <span am-time-ago="message.time"></span>
+    <!--<span>{{ message.time | amEndOf:'month' | amLocal }}</span>-->
+    <!--<span am-time-ago="message.unixTime | amFromUnix"></span>-->
+    <span>{{message.time | amUtc | amLocal | amDateFormat:'YYYY-MM-DD HH:mm:ss'}}</span>
+
+    <input class="form-control"
+           date-range-picker
+           options="singleOpts" required
+           ng-model="datePicker.singleDate"/>
+
+    <input min="datePicker.min" date-range-picker options="opts" required class="form-control date-picker" type="text"
+           ng-model="datePicker.date"/>
+</div>
+
+
     <!--select-->
     <div class="row">
 
@@ -62,23 +268,23 @@
     <!--modal-->
     <div class="row">
 
-        <script type="text/ng-template" id="myModalContent.html">
-            <div class="modal-header">
-                <h3 class="modal-title">I'm a modal!</h3>
-            </div>
-            <div class="modal-body">
-                <ul>
-                    <li ng-repeat="item in items">
-                        <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
-                    </li>
-                </ul>
-                Selected: <b>{{ selected.item }}</b>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-                <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
-            </div>
-        </script>
+        <!--<script type="text/ng-template" id="myModalContent.html">-->
+        <!--<div class="modal-header">-->
+        <!--<h3 class="modal-title">I'm a modal!</h3>-->
+        <!--</div>-->
+        <!--<div class="modal-body">-->
+        <!--<ul>-->
+        <!--<li ng-repeat="item in items">-->
+        <!--<a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>-->
+        <!--</li>-->
+        <!--</ul>-->
+        <!--Selected: <b>{{ selected.item }}</b>-->
+        <!--</div>-->
+        <!--<div class="modal-footer">-->
+        <!--<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>-->
+        <!--<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>-->
+        <!--</div>-->
+        <!--</script>-->
 
         <button type="button" class="btn btn-default" ng-click="open()">Open me!</button>
         <button type="button" class="btn btn-default" ng-click="open('lg')">Large modal</button>

@@ -13,6 +13,8 @@
             '$compileProvider',
             '$locationProvider',
             '$translateProvider',
+            'logEnhancerProvider',
+            'calendarConfig',
             configureStates]);
     /////////////////////
     function configureStates($httpProvider,
@@ -20,7 +22,13 @@
                              $urlRouterProvider,
                              $compileProvider,
                              $locationProvider,
-                             $translateProvider) {
+                             $translateProvider,
+                             logEnhancerProvider,
+                             calendarConfig) {
+
+
+        logEnhancerProvider.datetimePattern = 'YYYY-MM-DD hh:mm:ss a';
+        calendarConfig.dateFormatter = 'moment'; // use moment instead of angular for formatting dates
 
         //$locationProvider.html5Mode({
         //    enabled: true,

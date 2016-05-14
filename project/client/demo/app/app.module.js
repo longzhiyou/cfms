@@ -11,7 +11,9 @@
              */
 
             'app.core',
-            'app.ui'
+            'app.ui',
+            'angular-logger',
+            'mwl.calendar'
 
 
         ])

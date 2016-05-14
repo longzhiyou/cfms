@@ -26,7 +26,9 @@
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
                                 {
-                                    files: ['app/ui/profile.controller.js']
+                                    files: ['app/ui/profile.controller.js',
+                                        'app/ui/ModalContentSpec.html',
+                                        'app/ui/ModalInstanceCtrl.js']
                                 }
                             ]);
                         }

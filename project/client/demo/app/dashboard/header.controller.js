@@ -17,8 +17,8 @@
                 label: 'Ui', link: '', fa: 'fa fa-home fa-fw', children: [
                 {
                     label: 'profile', link: 'app.profile', fa: 'fa fa-book'
-                    //,children:[
-                    //{label: 'Home.children1.children', link: 'dashboard.home'}]
+                    , children: [
+                    {label: 'Home.children1.children', link: 'dashboard.home'}]
                 }
                 , {label: 'FontAwesome', link: 'app.FontAwesome'}
             ]
@@ -27,8 +27,8 @@
                 label: '测试长度', link: '', fa: 'fa fa-home fa-fw', children: [
                 {
                     label: 'UI-Grid', link: 'app.TestTable', fa: 'fa fa-book'
-                    //,children:[
-                    //{label: 'Home.children1.children', link: 'dashboard.home'}]
+                    , children: [
+                    {label: 'Home.children1.children', link: 'dashboard.home'}]
                 }
                 , {label: 'FontAwesome', link: 'app.FontAwesome'}
             ]

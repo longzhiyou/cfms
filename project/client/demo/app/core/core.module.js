@@ -24,5 +24,6 @@
 
         'oc.lazyLoad',                  // ocLazyLoad
         'angular-logger-max'
+
     ]);
 })();
