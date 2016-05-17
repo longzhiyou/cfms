@@ -1,5 +1,11 @@
 
 ### 	使用fis3作为前端工程构建工具
+* angular 手动依赖问题,使用插件可以自动添加
+    * https://github.com/zhangtao07/fis3-angular-demo
+    * npm install -g fis-preprocessor-annotate https://www.npmjs.com/package/fis-preprocessor-annotate
+        >A preprocessor plugin for fis to add and rebuild angularjs dependency injection annotations
+* 
+
 
 ### 编程规范
 > https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md
@@ -21,8 +27,11 @@
 * bower install angular-logger --save 依赖momentjs and sprintf.js https://github.com/better-js-logging/angular-logger
 * Bootstrap Datepicker 
 * angular-idle bower install ng-idle http://hackedbychinese.github.io/ng-idle/
-toastr.js
+* toastr.js
+* [iOS 复选框风格 Switchery](https://github.com/servergrove/NgSwitchery)
+* > [插件列表](https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S)
 
+#### angular 相关
 * [angular-ui](https://github.com/angular-ui)
     * [bootstrap](http://angular-ui.github.io/bootstrap/)
     * [UI Calendar](http://angular-ui.github.io/ui-calendar/ )
@@ -31,11 +40,10 @@ toastr.js
         * http://www.mikesmithdev.com/blog/fullcalendar-event-details-with-bootstrap-modal/
     * [ui-layout](http://angular-ui.github.io/ui-layout/)
     * [ui-tour](https://github.com/angular-ui/ui-tour)
-
+    * [angular-knob 旋钮插件](https://github.com/yunlzheng/angular-knob)
+    * 
 ### 打包部署
-* npm install -g fis-preprocessor-annotate https://www.npmjs.com/package/fis-preprocessor-annotate
-    >A preprocessor plugin for fis to add and rebuild angularjs dependency injection annotations
-* 
+
 
 
 
