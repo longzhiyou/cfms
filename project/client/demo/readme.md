@@ -27,9 +27,18 @@
 * bower install angular-logger --save 依赖momentjs and sprintf.js https://github.com/better-js-logging/angular-logger
 * Bootstrap Datepicker 
 * angular-idle bower install ng-idle http://hackedbychinese.github.io/ng-idle/
-* toastr.js
+* [toastr](https://github.com/CodeSeven/toastr)
+* [AngularJS-Toaster](https://github.com/jirikavi/AngularJS-Toaster)
+* [angular-notify](https://github.com/cgross/angular-notify)
+* [ngSweetAlert](https://github.com/oitozero/ngSweetAlert)
+* slick
+    * [angular-slick](https://github.com/vasyabigi/angular-slick)
+    
 * [iOS 复选框风格 Switchery](https://github.com/servergrove/NgSwitchery)
 * > [插件列表](https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S)
+* [ngImgCrop](https://github.com/alexk111/ngImgCrop)
+* [awesomeBootstrapCheckbox:](https://github.com/flatlogic/awesome-bootstrap-checkbox)
+* > 相关插件库参考https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 
 #### angular 相关
 * [angular-ui](https://github.com/angular-ui)
@@ -40,9 +49,11 @@
         * http://www.mikesmithdev.com/blog/fullcalendar-event-details-with-bootstrap-modal/
     * [ui-layout](http://angular-ui.github.io/ui-layout/)
     * [ui-tour](https://github.com/angular-ui/ui-tour)
+    * [angular-bootstrap-tour](https://github.com/benmarch/angular-bootstrap-tour)
     * [angular-knob 旋钮插件](https://github.com/yunlzheng/angular-knob)
-    * 
-### 打包部署
+    * [ngJsTree](http://ezraroi.github.io/ngJsTree/)
+    
+### 打包部署``
 
 
 
