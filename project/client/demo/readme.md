@@ -38,8 +38,14 @@
 * > [插件列表](https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S)
 * [ngImgCrop](https://github.com/alexk111/ngImgCrop)
 * [awesomeBootstrapCheckbox:](https://github.com/flatlogic/awesome-bootstrap-checkbox)
+* table
+	* [ng-table](http://ng-table.com/#/)
+	* [datatables](https://datatables.net/examples/styling/bootstrap.html)
+	* [angular-datatables](http://l-lin.github.io/angular-datatables/#/welcome) [github](https://github.com/l-lin/angular-datatables)
+	
 * > 相关插件库参考https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 
+	
 #### angular 相关
 * [angular-ui](https://github.com/angular-ui)
     * [bootstrap](http://angular-ui.github.io/bootstrap/)

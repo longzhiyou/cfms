@@ -3,13 +3,36 @@
 
     angular.module("app.ui").controller('TestGridController', TestGridController);
 
-    TestGridController.$inject = ['$rootScope', '$scope', '$resource', 'NgTableParams'];
+    // TestGridController.$inject = ['$rootScope', '$scope', '$resource', 'NgTableParams'];
 
     /////////////////////
-    function TestGridController($rootScope, $scope, $resource, NgTableParams) {
+    function TestGridController($rootScope, $scope, $resource, NgTableParams,DTOptionsBuilder, DTColumnBuilder) {
+        "ngInject";
+        // tip: to debug, open chrome dev tools and uncomment the following line
+        //debugger;
 
         //$scope.lang = $rootScope.lang;
         var vm = this;
+
+        vm.dtOptions = DTOptionsBuilder
+            .fromSource('http://l-lin.github.io/angular-datatables/archives/v0.4.x/data.json?_=1463646045216')
+            // Add Bootstrap compatibility
+            .withBootstrap();
+        vm.dtColumns = [
+            DTColumnBuilder.newColumn('id').withTitle('ID').withClass('text-danger'),
+            DTColumnBuilder.newColumn('firstName').withTitle('First name'),
+            DTColumnBuilder.newColumn('lastName').withTitle('Last name')
+        ];
+
+        // vm.dtOptions = DTOptionsBuilder.newOptions()
+        //     .withBootstrap();
+
+        // vm.dtColumnDefs = [
+        //     DTColumnDefBuilder.newColumnDef(0),
+        //     DTColumnDefBuilder.newColumnDef(1).notVisible(),
+        //     DTColumnDefBuilder.newColumnDef(2).notSortable()
+        // ];
+
         vm.description = 'NAME';
         vm.search = search;
 
@@ -42,22 +65,22 @@
             }
         });
 
-        //vm.myData = [
-        //    {
-        //        "name": "lzy",
-        //        "gender": "男"
-        //    },{
-        //        "name": "long",
-        //        "gender": "女"
-        //    }];
+        vm.myData = [
+           {
+               "name": "lzy",
+               "gender": "男"
+           },{
+               "name": "long",
+               "gender": "女"
+           }];
 
-        //$scope.highlightFilteredHeader = function( row, rowRenderIndex, col, colRenderIndex ) {
-        //    if( col.filters[0].term ){
-        //        return 'header-filtered';
-        //    } else {
-        //        return '';
-        //    }
-        //};
+        $scope.highlightFilteredHeader = function( row, rowRenderIndex, col, colRenderIndex ) {
+           if( col.filters[0].term ){
+               return 'header-filtered';
+           } else {
+               return '';
+           }
+        };
 
 
         //var translate = "headerCellFilter: 'translate'";

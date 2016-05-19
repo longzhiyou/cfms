@@ -10,23 +10,21 @@
     angular.module("app").controller('HeaderController', ['$state', HeaderController]);
 
     /////////////////////
+    /* @ngInject */
     function HeaderController($state) {
 
         var headerStates = [
             {
-                label: 'Ui', link: '', fa: 'fa fa-home fa-fw', children: [
-                {
-                    label: 'profile', link: 'app.profile', fa: 'fa fa-book'
-                    , children: [
-                    {label: 'Home.children1.children', link: 'dashboard.home'}]
-                }
-                , {label: 'FontAwesome', link: 'app.FontAwesome'}
-            ]
+                label: 'Ui', link: '', fa: 'fa fa-home fa-fw', children:
+                [
+                    {label: 'profile', link: 'app.profile', fa: 'fa fa-book'},
+                    {label: 'FontAwesome', link: 'app.FontAwesome'}
+                ]
             },
             {
-                label: '测试长度', link: '', fa: 'fa fa-home fa-fw', children: [
+                label: '表测试', link: '', fa: 'fa fa-home fa-fw', children: [
                 {
-                    label: 'UI-Grid', link: 'app.TestTable', fa: 'fa fa-book'
+                    label: 'ng-table', link: 'app.TestTable', fa: 'fa fa-book'
                     , children: [
                     {label: 'Home.children1.children', link: 'dashboard.home'}]
                 }

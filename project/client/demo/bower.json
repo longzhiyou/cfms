@@ -33,6 +33,9 @@
     "angular-logger": "^1.3.2",
     "angular-ui-calendar": "^1.0.1",
     "angular-bootstrap-calendar": "^0.20.0",
-    "angular-sweetalert": "latest"
+    "angular-sweetalert": "latest",
+    "ng-table": "^1.0.0-beta.9",
+    "angular-resource": "^1.5.5",
+    "angular-datatables": "^0.5.4"
   }
 }

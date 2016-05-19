@@ -10,10 +10,12 @@
         // 'ui.grid',
         // 'ui.grid.edit',
         // 'ui.grid.selection',
-        // 'ngResource',
+        'ngResource',
         'ngAnimate',
         'pascalprecht.translate',
-        // 'ngTable',
+        'ngTable',
+        'datatables',
+        'datatables.bootstrap',
         /*
          * Our reusable cross app code modules
          */
