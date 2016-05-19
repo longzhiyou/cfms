@@ -19,6 +19,18 @@
 * 统一使用不带压缩的文件,这样调试方便
 * bower上没有的,统一放在vendor文件夹下面
 
+### 技术选型
+#### UI
+* table
+* checkbox
+* date/time
+* 进度条
+* 树
+* sliderbar
+* notify
+* alert
+
+
 ### 插件 plugins 
 * bower install https://github.com/daneden/animate.css.git#3.5.1 -save
 * bower install https://github.com/dangrossman/bootstrap-daterangepicker.git -save
