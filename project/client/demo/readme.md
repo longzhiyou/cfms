@@ -29,6 +29,10 @@
 * sliderbar
 * notify
 * alert
+* 可编辑 [X-editable](http://vitalets.github.io/x-editable/demo-bs3.html?c=inline)
+
+###其他库
+* mock.js https://segmentfault.com/a/1190000003087224
 
 
 ### 插件 plugins 
@@ -54,6 +58,8 @@
 	* [ng-table](http://ng-table.com/#/)
 	* [datatables](https://datatables.net/examples/styling/bootstrap.html)
 	* [angular-datatables](http://l-lin.github.io/angular-datatables/#/welcome) [github](https://github.com/l-lin/angular-datatables)
+* upload
+	* [File Upload](https://github.com/blueimp/jQuery-File-Upload)
 	
 * > 相关插件库参考https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 

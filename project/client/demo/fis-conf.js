@@ -1,3 +1,57 @@
+
+
+
+// fis.match('::packager', {
+//   spriter: fis.plugin('csssprites')
+// });
+
+
+
+// fis.match('bower_components/**.css', {
+//     rExt: '.min.css'
+// });
+
+//
+// fis.match('bower_components/**.js', {
+//     rExt: '.min.js' // 代码编译产出时，后缀改成 .min.js
+// });
+
+
+fis.set('project.ignore', [
+    '.git/**',
+    '.svn/**',
+    'bower_components/**',
+    'node_modules/**',
+    'bower.json',
+    'fis-conf.js'
+]);
+
+
+fis.match('*', {
+    useHash: true
+});
+
+fis.match('*.js', {
+    optimizer: fis.plugin('uglify-js')
+});
+
+fis.match('*.min.js', {
+    optimizer: null
+});
+
+fis.match('*.css', {
+    useSprite: true,
+    optimizer: fis.plugin('clean-css')
+});
+
+fis.match('*.png', {
+    optimizer: fis.plugin('png-compressor')
+});
+
+
+
+
+
 // fis.match('::packager', {
 //   spriter: fis.plugin('csssprites')
 // });
@@ -16,15 +70,19 @@
 //     preprocessor: fis.plugin('annotate')
 // });
 
-fis.match('profile.controller.js', {
-    preprocessor: fis.plugin('annotate'),
-    optimizer: fis.plugin('uglify-js')
-});
+// fis.match('bower_components/*.js', {
+//     rExt: '.min.js' // 代码编译产出时，后缀改成 .js
+// });
 
-
-fis.match('outfile.js', {
-    optimizer: fis.plugin('uglify-js')
-});
+// fis.match('profile.controller.js', {
+//     preprocessor: fis.plugin('annotate'),
+//     optimizer: fis.plugin('uglify-js')
+// });
+//
+//
+// fis.match('outfile.js', {
+//     optimizer: fis.plugin('uglify-js')
+// });
 
 
 /**********************生产环境下CSS、JS压缩合并*****************/
