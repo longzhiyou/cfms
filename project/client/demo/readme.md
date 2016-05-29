@@ -30,7 +30,9 @@
 * notify
 * alert
 * 可编辑 [X-editable](http://vitalets.github.io/x-editable/demo-bs3.html?c=inline)
-
+* data
+    * https://github.com/swimlane/angular-model-factory
+    
 ###其他库
 * mock.js https://segmentfault.com/a/1190000003087224
 
@@ -98,6 +100,15 @@ body.header-fixed-space-default {
 	padding-top: 50px;
 }
 
+```
+
+``` javascript
+app.value("baseUrl", "http://myrestservice.com/api/v1");
 
 ```
+
+* http://www.oschina.net/translate/angularjs-form-validation
+
+
+
 
