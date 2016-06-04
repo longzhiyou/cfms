@@ -32,7 +32,7 @@ restful 接口
 > https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md
 * `手动添加依赖`(原因:压缩时会产生错误的变量，因此在运行时就会报错。)
 * 不需要手动依赖，则需要ng-annotate gulp-ng-annotate /* @ngInject */ 具体参考相关文章
-* 文件命名 feature.type.js
+* 文件命名 featureType.js
 
 ###	要点
 * bootstrap+angularjs 为主
@@ -102,7 +102,45 @@ restful 接口
     
 ### 打包部署``
 
-
+### 开发结构
+```javascript
+    /**
+     * recommended
+     */
+    app/
+        appModule.js
+        appConfig.js
+        appRun.js
+        core/
+        blocks/
+        components/
+            calendarDirective.js
+            calendarDirective.html
+            userProfile.directive.js
+            userProfile.directive.html
+        layout/
+            topnav.html
+            topnav.controller.js
+        dashboard/
+            dashboard.html
+            dashboard.js
+            dashboard.module.js
+        people/
+            attendees.html
+            attendees.controller.js
+            people.routes.js
+            speakers.html
+            speakers.controller.js
+            speaker-detail.html
+            speaker-detail.controller.js
+        services/
+            data.service.js
+            localstorage.service.js
+            logger.service.js
+            spinner.service.js
+    index.html
+    README.md
+```
 
 
 ### js加载顺序说明
@@ -127,9 +165,9 @@ body.header-fixed-space-default {
 app.value("baseUrl", "http://myrestservice.com/api/v1");
 
 ```
-
+### 其他
 * http://www.oschina.net/translate/angularjs-form-validation
-
-
-
+* [翻译：AngularJS应用的认证技术](http://www.cnblogs.com/webFrontDev/archive/2014/04/03/3641975.html)
+* [AngularJS中的http拦截](http://www.webdeveasy.com/interceptors-in-angularjs-and-useful-examples/)
+* [Understanding HTTP Interceptors In AngularJS](http://www.c-sharpcorner.com/UploadFile/dev4634/understanding-http-interceptors-in-angular-js/)
 
