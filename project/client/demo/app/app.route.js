@@ -6,17 +6,10 @@
     'use strict';
 
     angular.module("app")
-        .config([
-            '$httpProvider',
-            '$stateProvider',
-            '$urlRouterProvider',
-            '$compileProvider',
-            '$locationProvider',
-            '$translateProvider',
-            'logEnhancerProvider',
-            'calendarConfig',
-            configureStates]);
+        .config(configureStates);
+
     /////////////////////
+    /* @ngInject */
     function configureStates($httpProvider,
                              $stateProvider,
                              $urlRouterProvider,
@@ -30,6 +23,7 @@
         logEnhancerProvider.datetimePattern = 'YYYY-MM-DD hh:mm:ss a';
         calendarConfig.dateFormatter = 'moment'; // use moment instead of angular for formatting dates
 
+        $httpProvider.interceptors.push();
         //$locationProvider.html5Mode({
         //    enabled: true,
         //        requireBase: false
