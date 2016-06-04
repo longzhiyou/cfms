@@ -32,7 +32,10 @@ restful 接口
 > https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md
 * `手动添加依赖`(原因:压缩时会产生错误的变量，因此在运行时就会报错。)
 * 不需要手动依赖，则需要ng-annotate gulp-ng-annotate /* @ngInject */ 具体参考相关文章
-* 文件命名 featureType.js
+* 命名规范
+	* 文件名 FeatureType.js
+	* 控制器 HttpController 驼峰式
+	* 服务 等等 httpInterceptor 驼峰第一个单词小写
 
 ###	要点
 * bootstrap+angularjs 为主
