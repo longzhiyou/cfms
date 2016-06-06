@@ -27,22 +27,27 @@ fis.set('project.ignore', [
 ]);
 
 
-fis.match('*', {
-    useHash: true
+// fis.match('*', {
+//     useHash: true
+// });
+
+fis.match('*.{js,css,png,gif}', {
+    useHash: true // 开启 md5 戳
 });
 
-fis.match('*.js', {
-    optimizer: fis.plugin('uglify-js')
-});
+
+// fis.match('*.js', {
+//     optimizer: fis.plugin('uglify-js')
+// });
 
 fis.match('*.min.js', {
     optimizer: null
 });
 
-fis.match('*.css', {
-    useSprite: true,
-    optimizer: fis.plugin('clean-css')
-});
+// fis.match('*.css', {
+//     useSprite: true,
+//     optimizer: fis.plugin('clean-css')
+// });
 
 fis.match('*.png', {
     optimizer: fis.plugin('png-compressor')
