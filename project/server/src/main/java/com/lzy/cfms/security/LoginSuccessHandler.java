@@ -35,12 +35,12 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 
         log.debug("onAuthenticationSuccess");
 
-        if (request.getHeader("Access-Control-Allow-Origin")==null) {
-            response.setHeader("Access-Control-Allow-Origin", "*");//* or origin as u prefer
-            response.setHeader("Access-Control-Allow-Credentials", "true");
-            response.setHeader("Access-Control-Allow-Headers",
-                    request.getHeader("Access-Control-Request-Headers"));
-        }
+//        if (request.getHeader("Access-Control-Allow-Origin")==null) {
+//            response.setHeader("Access-Control-Allow-Origin", "*");//* or origin as u prefer
+//            response.setHeader("Access-Control-Allow-Credentials", "true");
+//            response.setHeader("Access-Control-Allow-Headers",
+//                    request.getHeader("Access-Control-Request-Headers"));
+//        }
 
         try (OutputStream out = response.getOutputStream()) {
             customObjectMapper.writeValue(out, user);

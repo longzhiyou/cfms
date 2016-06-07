@@ -31,12 +31,12 @@ public class LoginFailureHandler implements AuthenticationFailureHandler {
 
         String msg =  exception.getMessage();
         log.debug(msg);
-
-        if (request.getHeader("Access-Control-Allow-Origin")==null) {
-            response.setHeader("Access-Control-Allow-Origin", "*");//* or origin as u prefer
-            response.setHeader("Access-Control-Allow-Credentials", "true");
-            response.setHeader("Access-Control-Allow-Headers",request.getHeader("Access-Control-Request-Headers"));
-        }
+//
+//        if (request.getHeader("Access-Control-Allow-Origin")==null) {
+//            response.setHeader("Access-Control-Allow-Origin", "*");//* or origin as u prefer
+//            response.setHeader("Access-Control-Allow-Credentials", "true");
+//            response.setHeader("Access-Control-Allow-Headers",request.getHeader("Access-Control-Request-Headers"));
+//        }
 
         try (OutputStream out = response.getOutputStream()) {
             customObjectMapper.writeValue(out, msg);

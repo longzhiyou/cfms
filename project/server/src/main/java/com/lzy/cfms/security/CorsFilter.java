@@ -1,42 +1,43 @@
 package com.lzy.cfms.security;
 
-import org.springframework.web.filter.OncePerRequestFilter;
+import org.springframework.core.Ordered;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
 
-import javax.servlet.FilterChain;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
+import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * User: longzhiyou
- * Date: 2016-06-07
- * Time: 17:28
+ * CrosFilter : 跨域资源共享过滤器, 该过滤器设置response header, 解决跨域ajax请求报错
+ *
+ * @author arccode
+ * @since 2014-12-07 22:04
  */
-public class CorsFilter extends OncePerRequestFilter {
-    static final String ORIGIN = "Origin";
+@Component
+@Order(Ordered.HIGHEST_PRECEDENCE)
+public class CorsFilter implements Filter {
 
     @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
-            throws ServletException, IOException {
-        System.out.println(request.getHeader(ORIGIN));
-        System.out.println(request.getMethod());
-        if (request.getHeader(ORIGIN).equals("null")) {
-            String origin = request.getHeader(ORIGIN);
-            response.setHeader("Access-Control-Allow-Origin", "*");//* or origin as u prefer
-            response.setHeader("Access-Control-Allow-Credentials", "true");
-            response.setHeader("Access-Control-Allow-Headers",
-                    request.getHeader("Access-Control-Request-Headers"));
-        }
-        if (request.getMethod().equals("OPTIONS")) {
-            try {
-                response.getWriter().print("OK");
-                response.getWriter().flush();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }else{
-            filterChain.doFilter(request, response);
-        }
+    public void init(FilterConfig filterConfig) throws ServletException {
+
+    }
+
+    @Override
+    public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
+
+        HttpServletResponse response = (HttpServletResponse)res;
+        // 允许所有域进行访问
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        // 允许的方法
+        response.setHeader("Access-Control-Allow-Methods", "GET,POST,DELETE,OPTIONS");
+        response.setHeader("Access-Control-Max-Age", "3600");
+        response.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Cache-Control");
+        chain.doFilter(req, res);
+    }
+
+    @Override
+    public void destroy() {
+
     }
 }
