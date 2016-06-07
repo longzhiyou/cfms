@@ -41,3 +41,15 @@
     }
 
 })(angular);
+
+(function(angular){
+    "use strict";
+    angular.module('app')
+        .controller('HttpController', HttpController);
+    /* @ngInject */
+    function HttpController($scope){
+        var vm = this;
+        
+    }
+    
+})(angular);

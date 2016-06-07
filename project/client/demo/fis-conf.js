@@ -31,9 +31,9 @@ fis.set('project.ignore', [
 //     useHash: true
 // });
 
-fis.match('*.{js,css,png,gif}', {
-    useHash: true // 开启 md5 戳
-});
+// fis.match('*.{js,css,png,gif}', {
+//     useHash: true // 开启 md5 戳
+// });
 
 
 // fis.match('*.js', {
