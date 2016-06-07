@@ -27,12 +27,15 @@ public class CorsFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
 
         HttpServletResponse response = (HttpServletResponse)res;
-        // 允许所有域进行访问
-        response.setHeader("Access-Control-Allow-Origin", "*");
-        // 允许的方法
-        response.setHeader("Access-Control-Allow-Methods", "GET,POST,DELETE,OPTIONS");
-        response.setHeader("Access-Control-Max-Age", "3600");
-        response.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Cache-Control");
+        if (response.getHeader("Access-Control-Allow-Origin")==null) {
+            // 允许所有域进行访问
+            response.setHeader("Access-Control-Allow-Origin", "*");
+            // 允许的方法
+            response.setHeader("Access-Control-Allow-Methods", "GET,POST,DELETE,OPTIONS");
+            response.setHeader("Access-Control-Max-Age", "3600");
+            response.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Cache-Control");
+        }
+
         chain.doFilter(req, res);
     }
 
