@@ -7,8 +7,23 @@
 
     /////////////////////
     /* @ngInject */
-    function ProfileController($scope, $uibModal, $log, Logger, $ocLazyLoad, calendarConfig, moment) {
+    function ProfileController($http,$scope, $uibModal, $log, Logger, $ocLazyLoad, calendarConfig, moment) {
 
+        //发送后端程序，验证跳转
+
+        // // Simple GET request example:
+        // $http({
+        //     method: 'GET',
+        //     url: 'http://localhost:8080/hello'
+        // }).then(function successCallback(response) {
+        //     // this callback will be called asynchronously
+        //     // when the response is available
+        //     $log.debug(successCallback);
+        // }, function errorCallback(response) {
+        //     $log.debug(errorCallback);
+        //     // called asynchronously if an error occurs
+        //     // or server returns response with an error status.
+        // });
 
         var date = new Date();
         var d = date.getDate();

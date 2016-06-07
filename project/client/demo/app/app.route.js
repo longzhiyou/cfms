@@ -19,11 +19,13 @@
                              logEnhancerProvider,
                              calendarConfig) {
 
+        "ngInject";// just like you would "use strict". This must be at the beginning of your function.
+
+        $httpProvider.interceptors.push('httpInterceptor');
 
         logEnhancerProvider.datetimePattern = 'YYYY-MM-DD hh:mm:ss a';
         calendarConfig.dateFormatter = 'moment'; // use moment instead of angular for formatting dates
 
-        $httpProvider.interceptors.push();
         //$locationProvider.html5Mode({
         //    enabled: true,
         //        requireBase: false
@@ -79,7 +81,7 @@
                 loadPlugin: function ($ocLazyLoad) {
                     return $ocLazyLoad.load([
                         {
-                            files: ['assets/css/headers/header-default.css', 'app/dashboard/header.controller.js']
+                            files: [ 'assets/css/headers/header-default.css', 'app/dashboard/header.controller.js']
                         }
                     ]);
                 }

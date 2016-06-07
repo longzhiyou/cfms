@@ -55,8 +55,9 @@ restful 接口
 * alert
 * 可编辑 [X-editable](http://vitalets.github.io/x-editable/demo-bs3.html?c=inline)
 * data
-    * https://github.com/swimlane/angular-model-factory
-    
+    * https://github.com/swimlane/angular-model-factory(有列举其他rest服务)
+    * [angular-restful - Very basic but nice](http://esdrasedu.github.io/angular-restful/#/)
+
 ###其他库
 * mock.js https://segmentfault.com/a/1190000003087224
 

@@ -12,7 +12,7 @@
         </div>
 
 
-        <form class="reg-page" ng-submit="vm.login()">
+        <form name="loginForm" class="reg-page" ng-submit="vm.login()">
 
 
             <div class="alert alert-danger" ng-show="vm.error">
@@ -21,7 +21,7 @@
 
             <div class="input-group margin-bottom-20">
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                <input type="text" placeholder="Username" ng-model="vm.credentials.username" class="form-control">
+                <input type="text" placeholder="Username" required ng-model="vm.credentials.username" class="form-control">
             </div>
             <div class="input-group margin-bottom-20">
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
@@ -30,7 +30,8 @@
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <button type="submit" class="btn-u btn-block">Log In</button>
+                    <!--<button type="submit" ng-class="{'btn btn-primary':false}" ng-disabled="loginForm.$dirty && loginForm.$invalid" >Log In</button>-->
+                    <button type="submit" ng-class="{'btn btn-primary':true,'btn btn-primary disabled':loginForm.$invalid}"  >Log In</button>
                 </div>
             </div>
 

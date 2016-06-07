@@ -42,6 +42,16 @@
                         $rootScope.$state.go("login");
                     }
 
+                    // 如果用户未登录
+                    // if (!AuthService.userLoggedIn()) {
+                    //     if (next.templateUrl === "login.html") {
+                    //         // 已经转向登录路由因此无需重定向
+                    //     } else {
+                    //         $location.path('/login');
+                    //     }
+                    // }
+
+
                     Logger.log("stateChangeStart: from '" + fromState.name + "' to '" + toState.name + "'");
                 });
 
