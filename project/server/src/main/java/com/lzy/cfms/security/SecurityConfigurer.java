@@ -40,7 +40,7 @@ public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 
         http.authorizeRequests()
                 .antMatchers("/index.html", "/", "/app/**").permitAll()
-                .antMatchers(HttpMethod.OPTIONS, "/login").permitAll()
+//                .antMatchers(HttpMethod.OPTIONS).permitAll()
                 .anyRequest().authenticated()
                 .and()
 //                .formLogin().loginPage("/").loginProcessingUrl("/login")

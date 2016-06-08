@@ -33,6 +33,7 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 
         UserDetails user = (UserDetails) authentication.getPrincipal();
 
+//        String method = request.getMethod();
         log.debug("onAuthenticationSuccess");
 
 //        if (request.getHeader("Access-Control-Allow-Origin")==null) {
