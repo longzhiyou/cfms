@@ -2,175 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d696f5-375d-4764-989f-d5e632903f36" name="Default" comment="增加说明">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_core_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_schema_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_spi_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__io_swagger_swagger_models_1_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_3_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/cfms.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/common/Common.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/api/ApiException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/api/ApiOriginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/api/ApiResponseMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/api/HelloApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/api/NotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/api/PetsApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/configuration/HomeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/configuration/SwaggerDocumentationConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/model/ErrorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/model/ErrorResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/model/HelloWorldResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/model/NewPet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/swagger/model/Pet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/resources/config/application-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/resources/config/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/resources/config/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../server/src/main/resources/static/login.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/angular-bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/blocks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/footers/footer-v1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/headers/header-default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/headers/header-v1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/pages/profile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/player.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/plugins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/plugins/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/theme-colors/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/theme-skins/dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/ng-table.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/ui-grid.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/ui-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/ui-grid.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/css/vendor/ui-grid.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/bg/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/bg/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/bg/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/logo1-default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/logo2-default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/patterns/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/patterns/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/team/img32-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/testimonials/img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/testimonials/img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/testimonials/img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/testimonials/img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/testimonials/img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/images/testimonials/img7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/app.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/app.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/app.start.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/auth/auth.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/content/content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/content/content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/core/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/core/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/core/core.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/core/dataservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/dashboard/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/dashboard/header.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/dashboard/header.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/dashboard/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/login/login.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/login/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/login/login.v2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/FontAwesome.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/TestTable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/profile.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/testTable.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/ui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/ui.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/ui/ui.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/angular-idle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/angular-translate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/logger.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/ng-backstretch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/ng-backstretch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/ng-table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/ocLazyLoad.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../server/src/main/resources/static/js/vendor/ui-grid.min.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/fis-conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fis-conf.js" afterPath="$PROJECT_DIR$/fis-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/../../server/.idea/checkstyle-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../server/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../server/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../server/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/../../server/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/pom.xml" afterPath="$PROJECT_DIR$/../../server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/CfmsApplication.java" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/CfmsApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/rest/GreetingController.java" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/rest/GreetingController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/security/SecurityConfigurer.java" afterPath="$PROJECT_DIR$/../../server/src/main/java/com/lzy/cfms/security/SecurityConfigurer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_5.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_32.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_33.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_32.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_33.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_32.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_33.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_32.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_33.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_test_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../server/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/README.md" afterPath="$PROJECT_DIR$/../../demo/layout/client/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/security/client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../demo/security/client/.idea/workspace.xml" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -201,11 +44,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fis-conf.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="300">
+                <caret line="144" column="14" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/profile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -256,26 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/auth/auth.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="18" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/login/login.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -395,10 +244,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,6 +462,7 @@
       <workItem from="1465548602094" duration="211000" />
       <workItem from="1465609279461" duration="772000" />
       <workItem from="1465612433872" duration="2885000" />
+      <workItem from="1465631868534" duration="2185000" />
     </task>
     <task id="cfms-3" summary="angular相关">
       <branch name="master" repository="F:\IntelliJ-IDEA-pro\github\cfms" original="true" />
@@ -682,16 +564,16 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73820000" />
+    <option name="totallyTimeSpent" value="76005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1612" height="912" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21437658" sideWeight="0.58064514" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21437658" sideWeight="0.57419354" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21437658" sideWeight="0.41935483" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21437658" sideWeight="0.42580646" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37276787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32664436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -765,13 +647,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-csp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1715">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/angular/angular-csp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -990,21 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="588">
-            <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1109,6 +969,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="144" column="14" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="588">
+            <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
