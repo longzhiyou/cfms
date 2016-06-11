@@ -8,7 +8,22 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../client/demo/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/AuthController.java">
           <value>
             <set />
           </value>
@@ -18,7 +33,97 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/LoginController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/common/Common.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/GreetingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/PetController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/security/SecurityConfigurer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/swagger/api/ApiOriginFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/swagger/api/HelloApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/swagger/api/PetsApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/swagger/configuration/HomeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/swagger/configuration/SwaggerDocumentationConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/static/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/static/login.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/lzy/download/springboot-server-generated-petstore/springboot-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/lzy/download/springboot-server-generated-petstore/springboot-server/src/main/java/io/swagger/api/PetsApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/lzy/download/springboot-server-generated-petstore/springboot-server/src/main/java/io/swagger/configuration/SwaggerDocumentationConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="E:/lzy/download/springboot-server-generated-petstore/springboot-server/src/main/resources/application.properties">
           <value>
             <set />
           </value>

@@ -22,10 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="server" />
+        <module name="cfms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cfms" target="1.8" />
       <module name="server" target="1.8" />
     </bytecodeTargetLevel>
   </component>

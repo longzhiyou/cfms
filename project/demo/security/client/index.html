@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+	<title >CFMS</title>
+
+	<style type="text/css">
+
+		.ng-cloak {
+			display: none;
+		}
+
+		/* This helps the ng-show/ng-hide animations start at the right place. */
+		/* Since Angular has this but needs to load, this gives us the class early. */
+		.ng-hide {
+			display: none!important;
+		}
+
+	</style>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Web Fonts -->
+	<!--<link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">-->
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- CSS Global Compulsory -->
+	<!-- using twitter bootstrap, but of course -->
+	<!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+	<link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- CSS Header and Footer -->
+	<!--<link href="css/headers/header-default.css" rel="stylesheet">-->
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="css/plugins/animate.css">
+
+
+	<!-- CSS Page Style -->
+	<!--<link rel="stylesheet" href="css/pages/profile.css">-->
+
+	<!-- CSS Theme -->
+	<!--<link rel="stylesheet" href="css/theme-colors/default.css" id="style_color">-->
+	<!--<link rel="stylesheet" href="css/theme-skins/dark.css">-->
+
+	<!-- CSS Customization -->
+	<!--<link rel="stylesheet" href="js/login/login.v2.css">-->
+	<link rel="stylesheet" href="css/custom.css">
+
+
+</head>
+
+<body class="header-fixed" >
+
+<div id="appView" ng-app="app" class="ng-cloak" ng-strict-di ui-view >
+	<!--root view-->
+</div>
+
+<!-- inject-vendor:js -->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/angular.js"></script>
+<script src="js/vendor/angular-ui-router.min.js"></script>
+
+
+<!-- *** Application scripts *** -->
+<script src="js/app.module.js"></script>
+
+<script src="js/app.start.js"></script>
+<script src="js/app.route.js"></script>
+<script src="js/auth/auth.service.js"></script>
+<script src="js/vendor/ocLazyLoad.min.js"></script>
+
+
+
+</body>
+</html>
+
