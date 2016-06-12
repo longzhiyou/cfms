@@ -129,6 +129,15 @@ fis.media('prod')
         packTo: "/pkg/vendor.css"
     });
 
+fis.match('prod/**/*', {
+    deploy: fis.plugin('http-push', {
+        receiver: 'http://192.168.1.109:8999/receiver',
+        from: '/prod',
+        //远端目录
+        to: '/data/client/fis'
+    })
+});
+
 // // 所有的 js
 // fis.match('**.js', {
 //     //发布到/static/js/xxx目录下

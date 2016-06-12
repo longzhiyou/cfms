@@ -20,7 +20,8 @@
     "jquery": "^2.2.3",
     "angular": "angularjs#^1.5.5",
     "angular-ui-router": "^0.2.18",
-    "oclazyload": "ocLazyLoad#^1.0.9"
-
+    "oclazyload": "ocLazyLoad#^1.0.9",
+    "Ionicons": "ionicons#^2.0.1",
+    "AdminLTE": "admin-lte#^2.3.3"
   }
 }
