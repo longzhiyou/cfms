@@ -1,8 +1,15 @@
 
 # 工程布局例子
+
 ### 文件命名
 * 第一个单词小写的驼峰式,如personManager
 * 控制器、指令、服务等要有对应的后缀
+
+### 布局框架
+* 使用 [AdminLTE](https://github.com/almasaeed2010/AdminLTE) 为基础
+* 参考对应的项目：
+	* [Angular-AdminLTE](https://github.com/ahmadalibaloch/Angular-AdminLTE)
+	* [laravel-angular-admin](https://github.com/silverbux/laravel-angular-admin)
 
 
 ### 开发结构

@@ -13,8 +13,6 @@
     "fis3-open": "fis3 server open ",
     "fis3-start": "fis3 server start -p 9080",
     "http-server": "http-server -a 192.168.1.104 -p 8000",
-    "ng-annotate-test": "ng-annotate -a app/ui/profile.controller.js > outfile.js",
-
 
     "test": "echo \"Error: no test specified\" && exit 1"
 
