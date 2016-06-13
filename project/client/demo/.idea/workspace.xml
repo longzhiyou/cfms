@@ -2,24 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d696f5-375d-4764-989f-d5e632903f36" name="Default" comment="增加说明">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/business/business.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/business/businessConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/business/businessCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/core/appCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/dashboard/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/dashboard/dashboardConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/avatar04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/boxed-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/boxed-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/cirrus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/mestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/credit/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/default-50x50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/photo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/photo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/photo3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/photo4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user1-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user2-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user3-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user4-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user5-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user6-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user7-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/assets/img/user8-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/dashboard/dashboardCtrl.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/layout/content/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/layout/content/contentHeader.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/appConfig.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/appConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/appModule.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/appModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/appStart.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/appStart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/layout/header/header.html" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/layout/header/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/layout/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/layout/sidebar/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/login/login.html" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/login/loginCtrl.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/login/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/bower.json" afterPath="$PROJECT_DIR$/../../demo/layout/client/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/fis-conf.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/fis-conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/index.html" afterPath="$PROJECT_DIR$/../../demo/layout/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/package.json" afterPath="$PROJECT_DIR$/../../demo/layout/client/package.json" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +66,7 @@
       <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="520">
               <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
               <folding />
             </state>
@@ -53,7 +76,7 @@
       <file leaf-file-name="angular.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="2320">
               <caret line="116" column="42" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
               <folding />
             </state>
@@ -63,7 +86,7 @@
       <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="700">
               <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
               <folding />
             </state>
@@ -83,7 +106,7 @@
       <file leaf-file-name="ui.route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ui/ui.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="740">
               <caret line="40" column="18" selection-start-line="12" selection-start-column="7" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
@@ -93,18 +116,8 @@
       <file leaf-file-name="header.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dashboard/header.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="360">
               <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -113,18 +126,28 @@
       <file leaf-file-name="core.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/core/core.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="160">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.route.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
+            <state relative-caret-position="1640">
               <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fis-conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="117" column="37" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -133,7 +156,7 @@
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="180">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
@@ -197,9 +220,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="32" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -226,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,7 +321,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,6 +506,9 @@
       <workItem from="1465631868534" duration="2422000" />
       <workItem from="1465740148233" duration="2849000" />
       <workItem from="1465782189721" duration="3219000" />
+      <workItem from="1465822260820" duration="721000" />
+      <workItem from="1465827802429" duration="716000" />
+      <workItem from="1465859621179" duration="1070000" />
     </task>
     <task id="cfms-3" summary="angular相关">
       <branch name="master" repository="F:\IntelliJ-IDEA-pro\github\cfms" original="true" />
@@ -584,16 +610,15 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82310000" />
+    <option name="totallyTimeSpent" value="84817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21338251" sideWeight="0.5683356" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21256346" sideWeight="0.5683356" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21383248" sideWeight="0.4316644" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37276787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -606,6 +631,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3316129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3638393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -782,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,15 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fis-conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +858,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -854,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,21 +874,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="480">
           <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="520">
           <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding />
         </state>
@@ -884,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dashboard/header.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="360">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
@@ -892,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="180">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
@@ -900,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/login/login.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="700">
           <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding />
         </state>
@@ -908,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/core/core.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="160">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
@@ -916,7 +926,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="2320">
           <caret line="116" column="42" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
           <folding />
         </state>
@@ -932,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/ui.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="740">
           <caret line="40" column="18" selection-start-line="12" selection-start-column="7" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
@@ -940,8 +950,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
+        <state relative-caret-position="1640">
           <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fis-conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="117" column="37" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
           <folding />
         </state>
       </provider>

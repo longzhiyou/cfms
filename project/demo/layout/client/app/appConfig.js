@@ -14,7 +14,8 @@
     function configureStates( $httpProvider,
                               $stateProvider,
                               $urlRouterProvider,
-                              $locationProvider) {
+                              $locationProvider
+                              ) {
 
         $locationProvider.hashPrefix('!');
         $urlRouterProvider.otherwise('/login');       // Return to the login ordering screen
@@ -36,11 +37,46 @@
             }
         };
 
+
+
+
+        // $stateProvider
+        //     .state('login',{
+        //         view:{
+        //             'loginView':{
+        //                 url: '/login',
+        //                 templateUrl: 'app/login/login.html',
+        //                 controller: 'loginController',
+        //                 controllerAs: 'vm',
+        //                 resolve: {
+        //                     loadPlugin: function ($ocLazyLoad) {
+        //                         return $ocLazyLoad.load([
+        //                             {
+        //                                 files: ['app/login/loginCtrl.js']
+        //                             }
+        //                         ]);
+        //                     }
+        //                 }
+        //         }
+        //         }
+        //     });
+
+
         var layout =    {
             name:'app',
             abstract: true,
             url: '',
-            templateUrl: 'app/layout/layout.html'
+            templateUrl: 'app/layout/layout.html',
+            controller: function($scope){
+                $scope.$on('$viewContentLoaded',
+                    function(event){
+
+                        // $.AdminLTE.layout.fix();
+                        // console.info('$viewContentLoaded');
+                        // console.info(event);
+
+                    });
+            }
 
         };
         var states = [login,layout];

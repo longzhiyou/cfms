@@ -9,7 +9,7 @@
     "bower-install": "bower install",
     "fis3-debug": "fis3 release -wL ",
     "fis3-release": "fis3 release ",
-    "fis3-prod": "fis3 release prod -d ./prod ",
+    "fis3-prod": "fis3 release prod ",
     "fis3-open": "fis3 server open ",
     "fis3-start": "fis3 server start -p 9080",
     "http-server": "http-server -a 192.168.1.104 -p 8000",
