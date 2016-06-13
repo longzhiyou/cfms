@@ -12,9 +12,37 @@
 
     angular.module('app').run(appStart);
     /* @ngInject */
-    function appStart( $rootScope, $state, $stateParams) {
+    function appStart($log, $rootScope, $state, $stateParams) {
         $rootScope.$state = $state;
         $rootScope.$stateParams = $stateParams;
+        reportStateChanges();
+
+        function reportStateChanges() {
+
+            $rootScope.$on('$stateChangeStart',
+                function (event, toState, toParams, fromState) {
+
+                });
+
+            $rootScope.$on('$stateChangeError',
+                function (event, toState, toParams, fromState, fromParams, error) {
+                    $log.log("stateChangeError: from '" + fromState.name + "' to '" + toState.name + "' with error: " + error);
+                });
+
+            $rootScope.$on('$stateChangeSuccess',
+                function (event, toState, toParams, fromState) {
+                    $log.log("stateChangeSuccess: from '" + fromState.name + "' to '" + toState.name + "' with params " +
+                        JSON.stringify(toParams));
+                    
+                    // 在这里切换
+                    if (fromState.name==="login" && toState.name==="app.dashboard"){
+                        $.AdminLTE.layout.fix();
+                        
+                    }
+                });
+
+        }
 
     }
+
 })( this.angular );
