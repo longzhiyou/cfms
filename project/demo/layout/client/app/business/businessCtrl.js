@@ -5,13 +5,13 @@
 (function(angular){
     "use strict";
     angular.module('app')
-        .controller('loginController', LoginController);
+        .controller('businessController', BusinessController);
     /* @ngInject */
-    function LoginController($state){
+    function BusinessController($state){
 
         var vm = this;
-        vm.login = login;
-        function login() {
+        vm.go = go;
+        function go() {
             $state.go('app.dashboard');
         }
 

@@ -33,24 +33,17 @@
                         }
                     ]);
                 }
-            }};
+            }
+        };
 
         var layout =    {
             name:'app',
             abstract: true,
             url: '',
-            templateUrl: 'app/layout/layout.html',
-            resolve: {
-                loadPlugin: function ($ocLazyLoad) {
-                    return $ocLazyLoad.load([
-                        {
-                            files: ['']
-                        }
-                    ]);
-                }
-            }
+            templateUrl: 'app/layout/layout.html'
+
         };
-        var states = [login   ,layout];
+        var states = [login,layout];
         for(var index=0;    index<states.length;   index++){
             $stateProvider.state(states[index]);
         }
@@ -68,4 +61,4 @@
 
     }
 
-})(angular);
+})(this.angular);

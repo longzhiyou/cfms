@@ -8,9 +8,9 @@
  */
 
 (function( angular  ) {
+    "use strict";
 
-    angular
-        .module('app').run(appStart);
+    angular.module('app').run(appStart);
     /* @ngInject */
     function appStart( $rootScope, $state, $stateParams) {
         $rootScope.$state = $state;

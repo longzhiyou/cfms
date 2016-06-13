@@ -5,9 +5,8 @@
 (function(angular){
     "use strict";
     angular.module('app', [
-            'ui.router',
-            'oc.lazyLoad'
+            'appCore'
         ]);
 
 
-})(angular);
+})(this.angular);
