@@ -26,12 +26,12 @@
 
             $rootScope.$on('$stateChangeError',
                 function (event, toState, toParams, fromState, fromParams, error) {
-                    $log.log("stateChangeError: from '" + fromState.name + "' to '" + toState.name + "' with error: " + error);
+                    $log.debug("stateChangeError: from '" + fromState.name + "' to '" + toState.name + "' with error: " + error);
                 });
 
             $rootScope.$on('$stateChangeSuccess',
                 function (event, toState, toParams, fromState) {
-                    $log.log("stateChangeSuccess: from '" + fromState.name + "' to '" + toState.name + "' with params " +
+                    $log.debug("stateChangeSuccess: from '" + fromState.name + "' to '" + toState.name + "' with params " +
                         JSON.stringify(toParams));
                     
                     // 在这里切换

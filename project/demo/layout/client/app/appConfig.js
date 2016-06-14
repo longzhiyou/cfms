@@ -14,10 +14,10 @@
     function configureStates( $httpProvider,
                               $stateProvider,
                               $urlRouterProvider,
+                              $ocLazyLoadProvider,
                               $locationProvider
                               ) {
 
-        $locationProvider.hashPrefix('!');
         $urlRouterProvider.otherwise('/login');       // Return to the login ordering screen
 
         var login =  {
@@ -39,31 +39,6 @@
             }
         };
 
-
-
-
-        // $stateProvider
-        //     .state('login',{
-        //         view:{
-        //             'loginView':{
-        //                 url: '/login',
-        //                 templateUrl: 'app/login/login.html',
-        //                 controller: 'loginController',
-        //                 controllerAs: 'vm',
-        //                 resolve: {
-        //                     loadPlugin: function ($ocLazyLoad) {
-        //                         return $ocLazyLoad.load([
-        //                             {
-        //                                 files: ['app/login/loginCtrl.js']
-        //                             }
-        //                         ]);
-        //                     }
-        //                 }
-        //         }
-        //         }
-        //     });
-
-        //
         var layout =    {
             name:'app',
             abstract: true,
@@ -81,27 +56,21 @@
                 }
             }
 
-
-            // controller: function($scope){
-            //     $.AdminLTE.layout.fix();
-            //
-            //     // $scope.$on('$viewContentLoaded',
-            //     //     function(event){
-            //     //
-            //     //         $.AdminLTE.layout.fix();
-            //     //         // console.info('$viewContentLoaded');
-            //     //         console.info(event);
-            //     //
-            //     //
-            //     //     });
-            // }
-
         };
         var states = [login,layout];
         for(var index=0;    index<states.length;   index++){
             $stateProvider.state(states[index]);
         }
 
+
+        $ocLazyLoadProvider.config({
+            // Set to true if you want to see what and when is dynamically loaded
+            debug: false
+        });
+
+
+        $locationProvider.html5Mode(true);
+        // $locationProvider.hashPrefix('!');
 
         // $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
         /**
@@ -111,6 +80,7 @@
          *
          */
         $httpProvider.defaults.withCredentials = true;
+
 
 
     }
