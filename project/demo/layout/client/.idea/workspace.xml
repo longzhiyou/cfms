@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383f036a-3e78-4a61-8246-991ba5901309" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../client/demo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../client/demo/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="337">
-                <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <first_editor relative-caret-position="442">
+                <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -356,7 +354,7 @@
       <workItem from="1465774368205" duration="56000" />
       <workItem from="1465782190535" duration="7464000" />
       <workItem from="1465867766574" duration="3902000" />
-      <workItem from="1465883507263" duration="3817000" />
+      <workItem from="1465883507263" duration="3826000" />
     </task>
     <task id="LOCAL-00001" summary="先增加初步的想法，以后会慢慢完善。">
       <created>1465634218289</created>
@@ -379,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465889097702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="变成html5模式">
+      <created>1465891422457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465891422457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23373000" />
+    <option name="totallyTimeSpent" value="23382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -768,8 +773,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="337">
-            <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <first_editor relative-caret-position="442">
+            <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
