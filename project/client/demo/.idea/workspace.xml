@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d696f5-375d-4764-989f-d5e632903f36" name="Default" comment="增加说明">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/appConfig.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/appConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/appStart.js" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/appStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/app/layout/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/../../demo/layout/client/app/layout/sidebar/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/index.html" afterPath="$PROJECT_DIR$/../../demo/layout/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/readme.md" afterPath="$PROJECT_DIR$/../../demo/layout/client/readme.md" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -472,7 +468,7 @@
       <workItem from="1465740148233" duration="2849000" />
       <workItem from="1465782189721" duration="3219000" />
       <workItem from="1465867752340" duration="19000" />
-      <workItem from="1465885421191" duration="703000" />
+      <workItem from="1465885421191" duration="1302000" />
     </task>
     <task id="cfms-3" summary="angular相关">
       <branch name="master" repository="F:\IntelliJ-IDEA-pro\github\cfms" original="true" />
@@ -574,10 +570,10 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83032000" />
+    <option name="totallyTimeSpent" value="83631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21338251" sideWeight="0.5683356" order="0" side_tool="false" content_ui="tabs" />

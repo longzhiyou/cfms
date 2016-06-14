@@ -49,3 +49,23 @@
 * bower_components 全部是第三方库
 * widget: 业务相关的小组件，使用assets等css文件和js组装的通用组件
 * businessModule1:业务相关的模块目录，每一个目录有自己的模块依赖定义。
+
+
+>
+[jquery-metismenu-not-working-loading-data-async-with-angularjs](http://stackoverflow.com/questions/34026478/jquery-metismenu-not-working-loading-data-async-with-angularjs-controller)
+```
+I have solved the problem using an Angular Directive to execute the metisMenu function when last element of the ng-repeat is rendered to the DOM.
+
+  app.directive('metis', function ($timeout) {
+      return function ($scope, $element, $attrs) {
+          if ($scope.$last == true) {
+              $timeout(function () {
+                  $('#side-menu').metisMenu();
+              }, 250)
+          }
+      };
+  });
+  Then I have to use the directive on the Ng repeat element
+
+  <li ng-repeat="elementL1 in menuElements" ng-init="menuElements != null" metis="">
+```
