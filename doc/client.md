@@ -5,3 +5,4 @@
 * [angular-adminlte](https://github.com/eyolas/angular-adminlte)
 * [metisMenu](http://mm.onokumus.com/index.html)
 * [twbuttons](http://onokumus.github.io/twbuttons/)
+* [nicescroll](https://github.com/inuyaksa/jquery.nicescroll)
