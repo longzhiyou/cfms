@@ -21,8 +21,10 @@
         $urlRouterProvider.otherwise('/login');       // Return to the login ordering screen
 
         var login =  {
+            view:'rootView',
             name:'login',
             url: '/login',
+
             templateUrl: 'app/login/login.html',
             controller: 'loginController',
             controllerAs: 'vm',
@@ -61,22 +63,38 @@
         //         }
         //     });
 
-
+        //
         var layout =    {
             name:'app',
             abstract: true,
             url: '',
             templateUrl: 'app/layout/layout.html',
-            controller: function($scope){
-                $scope.$on('$viewContentLoaded',
-                    function(event){
-
-                        // $.AdminLTE.layout.fix();
-                        // console.info('$viewContentLoaded');
-                        // console.info(event);
-
-                    });
+            controller: 'layoutController',
+            controllerAs: 'vm',
+            resolve: {
+                loadPlugin: function ($ocLazyLoad) {
+                    return $ocLazyLoad.load([
+                        {
+                            files: ['app/layout/layoutCtrl.js']
+                        }
+                    ]);
+                }
             }
+
+
+            // controller: function($scope){
+            //     $.AdminLTE.layout.fix();
+            //
+            //     // $scope.$on('$viewContentLoaded',
+            //     //     function(event){
+            //     //
+            //     //         $.AdminLTE.layout.fix();
+            //     //         // console.info('$viewContentLoaded');
+            //     //         console.info(event);
+            //     //
+            //     //
+            //     //     });
+            // }
 
         };
         var states = [login,layout];
