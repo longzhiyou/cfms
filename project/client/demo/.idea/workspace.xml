@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33d696f5-375d-4764-989f-d5e632903f36" name="Default" comment="增加说明">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../demo/layout/client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../demo/layout/client/readme.md" afterPath="$PROJECT_DIR$/../../demo/layout/client/readme.md" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -574,7 +573,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21338251" sideWeight="0.5683356" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
