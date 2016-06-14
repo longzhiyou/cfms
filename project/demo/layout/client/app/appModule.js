@@ -5,7 +5,8 @@
 (function(angular){
     "use strict";
     angular.module('app', [
-            'appCore'
+            'appCore',
+            'ncy-angular-breadcrumb'
         ]);
 
 

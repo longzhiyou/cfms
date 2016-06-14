@@ -69,8 +69,8 @@
         });
 
 
-        $locationProvider.html5Mode(true);
-        // $locationProvider.hashPrefix('!');
+        $locationProvider.html5Mode(false);
+        $locationProvider.hashPrefix('!');
 
         // $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
         /**

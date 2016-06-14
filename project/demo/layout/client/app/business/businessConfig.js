@@ -20,6 +20,10 @@
                     templateUrl: 'app/business/business.html',
                     controller: 'businessController',
                     controllerAs: 'vm',
+                    ncyBreadcrumb: {
+                        parent:'app.dashboard',
+                        label: 'Business page'
+                    },
                     resolve: {
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([

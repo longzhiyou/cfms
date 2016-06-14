@@ -20,6 +20,11 @@
                     templateUrl: 'app/dashboard/dashboard.html',
                     controller: 'dashboardController',
                     controllerAs: 'vm',
+                    ncyBreadcrumb: {
+                        parent:'app',
+                        label: 'Dashboard page'
+
+                    },
                     resolve: {
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
