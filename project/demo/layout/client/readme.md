@@ -1,6 +1,7 @@
 
 # 工程布局例子
 ### 关键点
+* google 相关的字体要屏蔽或者替代
 
 ##命名
 ### 文件命名
@@ -11,6 +12,10 @@
 * 变量以及注入的名称是小写如
 	* controller('sidebarController'
 	* module("app")
+
+### 多语言
+* 所有要显示的地方都要用英文
+
 
 ### 布局框架
 * 使用 [AdminLTE](https://github.com/almasaeed2010/AdminLTE) 为基础

@@ -15,21 +15,33 @@
             </div>
         </div>
 
+        <!-- sidebar menu: : style can be found in sidebar.less https://github.com/eyolas/angular-adminlte/blob/master/views/layout/sidebar.html-->
+        <ul class="sidebar-menu">
+
+
+
+
+        <!-- Sidebar Menu -->
+
 
         <!-- sidebar menu: : style can be found in sidebar.less https://github.com/eyolas/angular-adminlte/blob/master/views/layout/sidebar.html-->
         <ul class="sidebar-menu">
             <li ng-repeat="menu in menus" ng-class="{'treeview': menu.children}" >
+
+                <!--叶子节点-->
                 <a ui-sref="{{menu.state}}" ng-if="menu.state">
                     <i class="{{menu.class}}"></i>
                     <span>{{menu.text}}</span>
                     <small class="badge pull-right bg-{{menu.badge.color || green}}" ng-if="menu.badge">{{menu.badge.text}}</small>
                 </a>
+                <!--父节点-->
                 <a href="#" ng-if="!menu.state">
                     <i class="{{menu.class}}"></i>
                     <span>{{menu.text}}</span>
                     <i class="fa fa-angle-left pull-right" ng-if="!menu.badge"></i>
                     <small class="badge pull-right bg-{{menu.badge.color || green}}" ng-if="menu.badge">{{menu.badge.text}}</small>
                 </a>
+
                 <ul class="treeview-menu" ng-if="menu.children">
 
                     <li ng-repeat="child in menu.children">
@@ -44,8 +56,11 @@
                             <i class="fa fa-angle-left pull-right" ng-if="!child.badge"></i>
                             <small class="badge pull-right bg-{{child.badge.color || green}}" ng-if="child.badge">{{child.badge.text}}</small>
                         </a>
-                        <ul class="treeview-menu" ng-if="menu.children">
-                            <a ui-sref="{{child.state}}"><i class="{{child.class}}"></i>{{child.text}}</a>
+                        <ul class="treeview-menu" ng-if="child.children">
+                            <li ng-repeat="grandson in child.children">
+                                <a ui-sref="{{grandson.state}}"><i class="{{grandson.class}}"></i>{{grandson.text}}</a>
+                             </li>
+
                         </ul>
 
                     </li>
@@ -54,7 +69,7 @@
         </ul>
 
 
-        <!-- Sidebar Menu -->
+        <!--&lt;!&ndash; Sidebar Menu &ndash;&gt;-->
         <!--<ul class="sidebar-menu">-->
             <!--<li class="header">HEADER</li>-->
             <!--&lt;!&ndash; Optionally, you can add icons to the links &ndash;&gt;-->
