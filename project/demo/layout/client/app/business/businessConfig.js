@@ -17,7 +17,7 @@
             .state('app.business',
                 {
                     url: '/business',
-                    templateUrl: 'app/business/business.html',
+                    templateUrl: 'app/business/Business.html',
                     controller: 'businessController',
                     controllerAs: 'vm',
                     ncyBreadcrumb: {
@@ -28,7 +28,7 @@
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
                                 {
-                                    files: ['app/business/businessCtrl.js']
+                                    files: ['app/business/BusinessController.js']
                                 }
                             ]);
                         }

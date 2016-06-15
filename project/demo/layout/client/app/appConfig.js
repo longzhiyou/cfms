@@ -25,14 +25,14 @@
             name:'login',
             url: '/login',
 
-            templateUrl: 'app/login/login.html',
+            templateUrl: 'app/login/Login.html',
             controller: 'loginController',
             controllerAs: 'vm',
             resolve: {
                 loadPlugin: function ($ocLazyLoad) {
                     return $ocLazyLoad.load([
                         {
-                            files: ['app/login/loginCtrl.js']
+                            files: ['app/login/LoginController.js']
                         }
                     ]);
                 }
@@ -42,19 +42,40 @@
         var layout =    {
             name:'app',
             abstract: true,
-            url: '',
-            templateUrl: 'app/layout/layout.html',
-            controller: 'layoutController',
-            controllerAs: 'vm',
-            resolve: {
-                loadPlugin: function ($ocLazyLoad) {
-                    return $ocLazyLoad.load([
-                        {
-                            files: ['app/layout/layoutCtrl.js']
+            views: {
+                '@': {
+                    templateUrl: 'app/layout/Layout.html',
+                    controller: 'layoutController',
+                    controllerAs: 'vm',
+                    resolve: {
+                        loadPlugin: function ($ocLazyLoad) {
+                            return $ocLazyLoad.load([
+                                {
+                                    files: ['app/layout/LayoutController.js']
+                                }
+                            ]);
                         }
-                    ]);
+                    }
+                },
+                'header@app': {
+                    templateUrl: 'app/layout/header/Header.html'
+                },
+                'sidebar@app': {
+                    templateUrl: 'app/layout/sidebar/sidebar.html',
+                    controller: 'sidebarController',
+                    controllerAs: 'vm',
+                    resolve: {
+                        loadPlugin: function ($ocLazyLoad) {
+                            return $ocLazyLoad.load([
+                                {
+                                    files: ['app/layout/sidebar/sidebarController.js']
+                                }
+                            ]);
+                        }
+                    }
                 }
             }
+
 
         };
         var states = [login,layout];

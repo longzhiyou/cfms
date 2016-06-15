@@ -1,9 +1,16 @@
 
 # 工程布局例子
+### 关键点
 
+##命名
 ### 文件命名
-* 第一个单词小写的驼峰式,如personManager
-* 控制器、指令、服务等要有对应的后缀
+* 第一个单词大写的驼峰式,如PersonManager
+* 文件夹小写驼峰，或者简写
+* 控制器、指令、服务等要有对应的后缀SidebarController
+* 函数也是大写驼峰如：SidebarController
+* 变量以及注入的名称是小写如
+	* controller('sidebarController'
+	* module("app")
 
 ### 布局框架
 * 使用 [AdminLTE](https://github.com/almasaeed2010/AdminLTE) 为基础
@@ -16,7 +23,7 @@
 ```javascript
     app/
         common/
-            dataService.js
+            DataService.js
         widget/    
         rest/
             personService.js
@@ -27,8 +34,8 @@
             businessModule1Config.js
         businessModule2/ 
         login/
-        app.js
-        appConfig.js
+        App.js
+        AppConfig.js
     assets/
         css/
             custom.css

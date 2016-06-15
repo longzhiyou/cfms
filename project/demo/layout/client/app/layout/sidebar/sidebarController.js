@@ -1,22 +1,15 @@
+
 /**
- * @ngdoc controller
- * @name app:layoutCtrl
- *
- * @description
- *
- *
- * @requires $scope
- * */
+ * Created by longzhiyou on 2016-06-15.
+ */
 
 (function(angular){
     "use strict";
     angular.module('app')
-        .controller('layoutController', LayoutController);
+        .controller('sidebarController', SidebarController);
     /* @ngInject */
-    function LayoutController($scope){
+    function SidebarController($scope){
         var vm = this;
-        // 很重要
-        $.AdminLTE.layout.fix();
 
         $scope.menus= [{
             "class": "fa fa-dashboard",
@@ -28,22 +21,22 @@
             "children": [{
                 "class": "fa fa-dashboard",
                 "state": "app.business",
-                "text": "Morris"
+                "text": "Charts child1"
 
             },{
                 "class": "fa fa-dashboard",
                 // "state": "app.dashboard",
-                "text": "Dashboard-3",
+                "text": "Charts child2",
                 "children": [{
                     "class": "fa fa-dashboard",
-                    "state": "app.business",
+                    "state": "app.dashboard",
                     "text": "Morris-3"
 
                 }]
             }]
         }, {
             "class": "fa fa-envelope",
-            "state": "app.home",
+            "state": "app.business",
             "text": "Mailbox",
             "badge": {
                 "color": "green",
@@ -52,6 +45,7 @@
         }];
 
 
+
     }
-    
+
 })(this.angular);

@@ -1,17 +1,21 @@
 <div class="wrapper">
 
     <!-- Main Header -->
-    <div ng-include="'app/layout/header/header.html'"></div>
+    <!--<div ng-include="'app/layout/header/Header.html'"></div>-->
+    <header ui-view="header" class="header"></header>
     <!-- Left side column. contains the logo and sidebar -->
-    <div ng-include="'app/layout/sidebar/sidebar.html'"></div>
+    <!--<div ng-include="'app/layout/sidebar/sidebar.html'"></div>-->
+    <div ui-view="sidebar"></div>
+
+
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Page Header
-                <small>Optional description</small>
+                {{title}}
+                <small>{{subtitle}}</small>
             </h1>
             <div class="well" ncy-breadcrumb></div>
             <!--<ol class="breadcrumb">-->
