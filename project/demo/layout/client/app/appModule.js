@@ -4,6 +4,7 @@
  */
 (function(angular){
     "use strict";
+    /* @ngInject */
     angular.module('app', [
             'appCore',
             'pascalprecht.translate',       // Angular Translate

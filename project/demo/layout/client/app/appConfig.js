@@ -8,10 +8,10 @@
  */
 (function(angular){
     "use strict";
-    angular.module("app").config(configureStates);
+    angular.module("app").config(AppConfig);
 
     /* @ngInject */
-    function configureStates( $httpProvider,
+    function AppConfig( $httpProvider,
                               $stateProvider,
                               $urlRouterProvider,
                               $ocLazyLoadProvider,
@@ -19,71 +19,6 @@
                               ) {
 
         $urlRouterProvider.otherwise('/login');       // Return to the login ordering screen
-
-        var login =  {
-            view:'rootView',
-            name:'login',
-            url: '/login',
-
-            templateUrl: 'app/login/Login.html',
-            controller: 'loginController',
-            controllerAs: 'vm',
-            resolve: {
-                loadPlugin: function ($ocLazyLoad) {
-                    return $ocLazyLoad.load([
-                        {
-                            files: ['app/login/LoginController.js']
-                        }
-                    ]);
-                }
-            }
-        };
-
-        var layout =    {
-            name:'app',
-            abstract: true,
-            views: {
-                '@': {
-                    templateUrl: 'app/layout/Layout.html',
-                    controller: 'layoutController',
-                    controllerAs: 'vm',
-                    resolve: {
-                        loadPlugin: function ($ocLazyLoad) {
-                            return $ocLazyLoad.load([
-                                {
-                                    files: ['app/layout/LayoutController.js']
-                                }
-                            ]);
-                        }
-                    }
-                },
-                'header@app': {
-                    templateUrl: 'app/layout/header/Header.html'
-                },
-                'sidebar@app': {
-                    templateUrl: 'app/layout/sidebar/sidebar.html',
-                    controller: 'sidebarController',
-                    controllerAs: 'vm',
-                    resolve: {
-                        loadPlugin: function ($ocLazyLoad) {
-                            return $ocLazyLoad.load([
-                                {
-                                    files: ['app/layout/sidebar/sidebarController.js']
-                                }
-                            ]);
-                        }
-                    }
-                }
-            }
-
-
-        };
-        var states = [login,layout];
-        for(var index=0;    index<states.length;   index++){
-            $stateProvider.state(states[index]);
-        }
-
-
         $ocLazyLoadProvider.config({
             // Set to true if you want to see what and when is dynamically loaded
             debug: false
@@ -102,6 +37,64 @@
          */
         $httpProvider.defaults.withCredentials = true;
 
+        $stateProvider
+            .state('login',
+                {
+                    url: '/login',
+                    templateUrl: 'app/login/Login.html',
+                    controller: 'loginController',
+                    controllerAs: 'vm',
+
+                    resolve: {
+                        loadPlugin: function ($ocLazyLoad) {
+                            return $ocLazyLoad.load([
+                                {
+                                    files: ['app/login/LoginController.js']
+                                }
+                            ]);
+                        }
+                    }
+                })
+            .state('app',
+                {
+                    abstract: true,
+                    views: {
+                        '@': {
+                            templateUrl: 'app/layout/Layout.html',
+                            controller: 'layoutController',
+                            controllerAs: 'vm',
+                            resolve: {
+                                loadPlugin: function ($ocLazyLoad) {
+                                    return $ocLazyLoad.load([
+                                        {
+                                            files: ['app/layout/LayoutController.js']
+                                        }
+                                    ]);
+                                }
+                            }
+                        },
+                        'header@app': {
+                            templateUrl: 'app/layout/header/Header.html'
+                        },
+                        'sidebar@app': {
+                            templateUrl: 'app/layout/sidebar/sidebar.html',
+                            controller: 'sidebarController',
+                            controllerAs: 'vm',
+                            resolve: {
+                                loadPlugin: function ($ocLazyLoad) {
+                                    return $ocLazyLoad.load([
+                                        {
+                                            files: ['app/layout/sidebar/sidebarController.js']
+                                        }
+                                    ]);
+                                }
+                            }
+                        }
+                    }
+
+
+                })
+        ;
 
 
     }

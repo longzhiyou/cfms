@@ -33,12 +33,7 @@
                 function (event, toState, toParams, fromState) {
                     $log.debug("stateChangeSuccess: from '" + fromState.name + "' to '" + toState.name + "' with params " +
                         JSON.stringify(toParams));
-                    
-                    // 在这里切换
-                    // if (fromState.name==="login" && toState.name==="app.dashboard"){
-                    //     $.AdminLTE.layout.fix();
-                    //    
-                    // }
+
                 });
 
         }
