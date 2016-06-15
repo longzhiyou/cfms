@@ -18,7 +18,7 @@
         $scope.menus= [{
             "class": "fa fa-dashboard",
             "state": "app.dashboard",
-            "text": "Dashboard-1"
+            "text": "Dashboard"
         }, {
             "class": "fa fa-bar-chart-o",
             "text": "Charts-1",

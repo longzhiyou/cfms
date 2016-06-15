@@ -6,6 +6,7 @@
     "use strict";
     angular.module('app', [
             'appCore',
+            'pascalprecht.translate',       // Angular Translate
             'ncy-angular-breadcrumb'
         ]);
 

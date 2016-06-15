@@ -15,7 +15,30 @@
 
 ### 多语言
 * 所有要显示的地方都要用英文
+* [AngularJS做多语言](http://www.html-js.com/topic/825)补充：发现有个叫phaser app的东西，可以多人协作翻译，导出各种格式的翻译文件，包括angular translate的json格式，这样就变得容易很多。
 
+```
+	//config translate to load static file
+	test.config(function($translateProvider){
+		$translateProvider.useStaticFilesLoader({
+			files: [{
+			  prefix: './i18n/locale-',
+			  suffix: '.json'
+			 }]
+		});
+		$translateProvider.registerAvailableLanguageKeys(['en', 'zh'], {
+		   'en_US': 'en',
+		   'en_UK': 'en',
+		   'zh_CN': 'zh'
+		});
+		//set preferred lang
+		//$translateProvider.preferredLanguage('en');
+		//auto determine preferred lang
+		$translateProvider.determinePreferredLanguage();
+		//when can not determine lang, choose en lang.
+		$translateProvider.fallbackLanguage('en');
+	});
+```
 
 ### 布局框架
 * 使用 [AdminLTE](https://github.com/almasaeed2010/AdminLTE) 为基础

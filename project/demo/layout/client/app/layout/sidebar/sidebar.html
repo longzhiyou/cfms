@@ -31,13 +31,13 @@
                 <!--叶子节点-->
                 <a ui-sref="{{menu.state}}" ng-if="menu.state">
                     <i class="{{menu.class}}"></i>
-                    <span>{{menu.text}}</span>
+                    <span>{{menu.text | translate}}</span>
                     <small class="badge pull-right bg-{{menu.badge.color || green}}" ng-if="menu.badge">{{menu.badge.text}}</small>
                 </a>
                 <!--父节点-->
                 <a href="#" ng-if="!menu.state">
                     <i class="{{menu.class}}"></i>
-                    <span>{{menu.text}}</span>
+                    <span>{{menu.text | translate}}</span>
                     <i class="fa fa-angle-left pull-right" ng-if="!menu.badge"></i>
                     <small class="badge pull-right bg-{{menu.badge.color || green}}" ng-if="menu.badge">{{menu.badge.text}}</small>
                 </a>
