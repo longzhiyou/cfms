@@ -18,6 +18,8 @@
 * [AngularJS做多语言](http://www.html-js.com/topic/825)补充：发现有个叫phaser app的东西，可以多人协作翻译，导出各种格式的翻译文件，包括angular translate的json格式，这样就变得容易很多。
 
 ```
+https://angular-translate.github.io/docs/#/guide/01_conceptual-overview
+http://yijiebuyi.com/blog/3b55056c87b73ba606c19e9338dca679.html
 	//config translate to load static file
 	test.config(function($translateProvider){
 		$translateProvider.useStaticFilesLoader({

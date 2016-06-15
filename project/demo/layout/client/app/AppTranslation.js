@@ -13,6 +13,13 @@
     /* @ngInject */
     function Language( $translateProvider) {
 
+        var lang = window.localStorage.lang||'cn';
+        $translateProvider.preferredLanguage(lang);
+        $translateProvider.useStaticFilesLoader({
+            prefix: '/i18n/',
+            suffix: '.json'
+        });
+
         //翻译会放到这里
         $translateProvider.translations('en', {
                 partyId: 'partyId',
