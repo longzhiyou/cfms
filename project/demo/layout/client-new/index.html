@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>cfms-layout demo </title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AdminLTE 2 | Starter</title>
+
+    <!--html5模式的时候使用,调试的时候增加client-->
+    <!--<base href="/client/">-->
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+
+    <!-- Favicon -->
+    <!--<link rel="shortcut icon" href="favicon.ico">-->
+    <link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+
+    <!-- Web Fonts -->
+    <!--<link rel='stylesheet' type='text/css' href='//fonts.useso.com/css?family=Open+Sans:300,400,600&amp;subset=latin,latin-ext' >-->
+
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="bower_components/AdminLTE/dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect.
+    -->
+    <link rel="stylesheet" href="bower_components/AdminLTE/dist/css/skins/skin-red-light.min.css">
+
+
+    <!--<link rel="stylesheet" href="assets/css/style.css">-->
+
+    <!-- CSS Customization -->
+    <!--<link rel="stylesheet" href="assets/css/custom.css">-->
+
+</head>
+
+<!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to get the
+desired effect
+|---------------------------------------------------------|
+| SKINS         | skin-blue                               |
+|               | skin-black                              |
+|               | skin-purple                             |
+|               | skin-yellow                             |
+|               | skin-red                                |
+|               | skin-green                              |
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | fixed                                   |
+|               | layout-boxed                            |
+|               | layout-top-nav                          |
+|               | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+<body  class="hold-transition skin-red-light sidebar-mini fixed">
+
+<div ng-app="app"  ui-view>
+    <!--root view-->
+</div>
+
+
+<!-- JS Global Compulsory -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+<script src="bower_components/angular-breadcrumb/dist/angular-breadcrumb.min.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+
+<!-- Optionally, you can add Slimscroll and FastClick plugins.
+     Both of these plugins are recommended to enhance the
+     user experience. Slimscroll is required when using the
+     fixed layout. -->
+<!-- Slimscroll -->
+<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+
+<!-- AdminLTE App -->
+<script src="bower_components/AdminLTE/dist/js/app.min.js"></script>
+
+<!-- Application scripts -->
+<script src="app/App.js"></script>
+<script src="app/core/AppCore.js"></script>
+<script src="app/AppModule.js"></script>
+<script src="app/AppConfig.js"></script>
+<script src="app/AppTranslation.js"></script>
+<script src="app/AppStart.js"></script>
+
+<!--Business scripts-->
+<script src="app/dashboard/DashboardConfig.js"></script>
+<script src="app/business/BusinessConfig.js"></script>
+
+
+</body>
+
+</html>
