@@ -29,7 +29,7 @@
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
                                 {
-                                    files: ['app/dashboard/DashboardController.js']
+                                    files: ['app/dashboard/cDashboardController.js']
                                 }
                             ]);
                         }

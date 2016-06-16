@@ -66,7 +66,7 @@
                                 loadPlugin: function ($ocLazyLoad) {
                                     return $ocLazyLoad.load([
                                         {
-                                            files: ['app/layout/LayoutController.js']
+                                            files: ['app/layout/cLayoutController.js']
                                         }
                                     ]);
                                 }

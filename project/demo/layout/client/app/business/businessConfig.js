@@ -28,7 +28,7 @@
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
                                 {
-                                    files: ['app/business/BusinessController.js']
+                                    files: ['app/business/cBusinessController.js']
                                 }
                             ]);
                         }
