@@ -39,7 +39,7 @@
                 {
                     url: '/widgets',
                     templateUrl: 'app/dashboard/widgets/widgets.html',
-                    controller: 'dashboardController',
+                    controller: 'widgetsController',
                     controllerAs: 'vm',
                     ncyBreadcrumb: {
                         parent:'app',
@@ -47,14 +47,15 @@
 
                     },
                     resolve: {
-                        loadPlugin: function ($ocLazyLoad) {
-                            return $ocLazyLoad.load([
-                                {
-                                    files: ['app/common/infoBoxDirective.js']
-                                }
-                            ]);
-                        }
+                    loadPlugin: function ($ocLazyLoad) {
+                        return $ocLazyLoad.load([
+                            {
+                                files: ['app/dashboard/widgets/widgetsController.js']
+                            }
+                        ]);
                     }
+                }
+
                 })
         ;
   

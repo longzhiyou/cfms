@@ -5,14 +5,21 @@
     "use strict";
     angular.module('app')
         .directive('infoBox', infoBoxDirective);
+
     /* @ngInject */
     function infoBoxDirective(){
         return {
             restrict: "E",
-            compile: compileFn
+            replace: true,
+            // require: '^message',
+            templateUrl:"app/directive/infoBox/infoBox.html",
+            scope: {
+                contentText: '='
+               },
+            link: linkFn
         };
 
-        function compileFn(tElem, tAttrs){
+        function linkFn(scope, elem, attrs){
 
         }
     }

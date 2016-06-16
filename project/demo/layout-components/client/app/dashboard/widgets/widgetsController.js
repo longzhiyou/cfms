@@ -5,10 +5,12 @@
 (function(angular){
     "use strict";
     angular.module('app')
-        .controller('dashboardController', DashboardController);
+        .controller('widgetsController', WidgetsController);
     /* @ngInject */
-    function DashboardController($state){
+    function WidgetsController($state,$scope){
         var vm = this;
+        $scope.message = "Message scope";
+        vm.message = "Message vm";
         vm.go = go;
         function go() {
             $state.go('app.business');

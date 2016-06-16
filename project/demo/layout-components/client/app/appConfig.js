@@ -66,7 +66,12 @@
                                 loadPlugin: function ($ocLazyLoad) {
                                     return $ocLazyLoad.load([
                                         {
-                                            files: ['app/layout/layoutController.js']
+                                            files: [
+                                                'app/directive/infoBox/infoBox.html',
+                                                'app/directive/infoBox/infoBoxDirective.js',
+                                                'app/layout/layoutController.js'
+
+                                            ]
                                         }
                                     ]);
                                 }
