@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="383f036a-3e78-4a61-8246-991ba5901309" name="Default" comment="最终修改layout名称">
+    <list default="true" id="383f036a-3e78-4a61-8246-991ba5901309" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/appConfig.js" afterPath="$PROJECT_DIR$/app/appConfig.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/login/LoginController.js" afterPath="$PROJECT_DIR$/app/login/cLoginController.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/login/cLoginController.js" afterPath="$PROJECT_DIR$/app/login/loginController.js" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="appConfig.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appConfig.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/appConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="615">
+              <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cLoginController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/login/cLoginController.js">
+      <file leaf-file-name="loginController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/login/loginController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="378">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -454,7 +454,7 @@
       <workItem from="1466042269023" duration="647000" />
       <workItem from="1466045683719" duration="659000" />
       <workItem from="1466056581774" duration="4837000" />
-      <workItem from="1466074395672" duration="136000" />
+      <workItem from="1466074395672" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="先增加初步的想法，以后会慢慢完善。">
       <created>1465634218289</created>
@@ -568,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466061464517</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改loginController名称">
+      <created>1466074557389</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1466074557389</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50838000" />
+    <option name="totallyTimeSpent" value="50906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -643,7 +650,8 @@
     <MESSAGE value="确定多语言功能，url动态加载." />
     <MESSAGE value="修改layout名称" />
     <MESSAGE value="最终修改layout名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="最终修改layout名称" />
+    <MESSAGE value="修改loginController名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改loginController名称" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -948,15 +956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/appConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/login/cLoginController.js">
+    <entry file="file://$PROJECT_DIR$/app/login/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -964,10 +964,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/login/cLoginController.js">
+    <entry file="file://$PROJECT_DIR$/app/login/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/appConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
           <folding />
         </state>
       </provider>
