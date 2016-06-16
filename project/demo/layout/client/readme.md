@@ -64,7 +64,7 @@ http://yijiebuyi.com/blog/3b55056c87b73ba606c19e9338dca679.html
             businessModule1Config.js
         businessModule2/ 
         login/
-        App.js
+        Appm.js
         AppConfig.js
     assets/
         css/
