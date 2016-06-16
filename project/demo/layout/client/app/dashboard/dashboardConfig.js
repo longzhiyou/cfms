@@ -17,7 +17,7 @@
             .state('app.dashboard',
                 {
                     url: '/dashboard',
-                    templateUrl: 'app/dashboard/Dashboard.html',
+                    templateUrl: 'app/dashboard/dashboard.html',
                     controller: 'dashboardController',
                     controllerAs: 'vm',
                     ncyBreadcrumb: {
@@ -29,7 +29,7 @@
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
                                 {
-                                    files: ['app/dashboard/cDashboardController.js']
+                                    files: ['app/dashboard/dashboardController.js']
                                 }
                             ]);
                         }

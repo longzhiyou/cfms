@@ -5,10 +5,10 @@
 
 ##命名
 ### 文件命名
-* 第一个单词大写的驼峰式,如PersonManager
+* 第一个单词`小写`的驼峰式,如personManager
 * 文件夹小写驼峰，或者简写
-* 控制器、指令、服务等要有对应的后缀SidebarController
-* 函数也是大写驼峰如：SidebarController
+* 控制器、指令、服务等要有对应的后缀sidebarController
+* 函数大写驼峰如：SidebarController
 * 变量以及注入的名称是小写如
 	* controller('sidebarController'
 	* module("app")

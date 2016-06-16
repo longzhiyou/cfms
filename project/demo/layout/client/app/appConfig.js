@@ -40,7 +40,7 @@
             .state('login',
                 {
                     url: '/login',
-                    templateUrl: 'app/login/Login.html',
+                    templateUrl: 'app/login/login.html',
                     controller: 'loginController',
                     controllerAs: 'vm',
 
@@ -59,21 +59,21 @@
                     abstract: true,
                     views: {
                         '@': {
-                            templateUrl: 'app/layout/Layout.html',
+                            templateUrl: 'app/layout/layout.html',
                             controller: 'layoutController',
                             controllerAs: 'vm',
                             resolve: {
                                 loadPlugin: function ($ocLazyLoad) {
                                     return $ocLazyLoad.load([
                                         {
-                                            files: ['app/layout/cLayoutController.js']
+                                            files: ['app/layout/layoutController.js']
                                         }
                                     ]);
                                 }
                             }
                         },
                         'header@app': {
-                            templateUrl: 'app/layout/header/Header.html'
+                            templateUrl: 'app/layout/header/header.html'
                         },
                         'sidebar@app': {
                             templateUrl: 'app/layout/sidebar/sidebar.html',
