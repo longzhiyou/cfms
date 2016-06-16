@@ -15,39 +15,46 @@
          * 父节点：state是空，fa-angle-left 不能添加
          * [2016-06-15 add by longzhiyou]
          */
-        $scope.menus= [{
-            "class": "fa fa-dashboard",
-            "state": "app.dashboard",
-            "text": "Dashboard"
-        }, {
-            "class": "fa fa-bar-chart-o",
-            "text": "Charts-1",
-            "children": [{
-                "class": "fa fa-dashboard",
-                // "state": "app.business",
-                "text": "Charts level1 c1",
-                "children": [{
-                    "class": "fa fa-dashboard",
-                    "state": "app.business",
-                    "text": "Charts level2 c1"
-
-                }]
-
-            },{
+        $scope.menus= [
+            {
                 "class": "fa fa-dashboard",
                 "state": "app.dashboard",
-                "text": "Charts  level1 c2"
+                "text": "Dashboard"
+            },
+            {
+                "class": "fa fa-th",
+                "state": "app.widgets",
+                "text": "Widgets"
+            },
+            {
+                "class": "fa fa-bar-chart-o",
+                "text": "Charts-1",
+                "children": [{
+                    "class": "fa fa-dashboard",
+                    // "state": "app.business",
+                    "text": "Charts level1 c1",
+                    "children": [{
+                        "class": "fa fa-dashboard",
+                        "state": "app.business",
+                        "text": "Charts level2 c1"
 
-            }]
-        }, {
-            "class": "fa fa-envelope",
-            "state": "app.business",
-            "text": "Mailbox-1",
-            "badge": {
-                "color": "green",
-                "text": "new"
-            }
-        }];
+                    }]
+
+                },{
+                    "class": "fa fa-dashboard",
+                    "state": "app.dashboard",
+                    "text": "Charts  level1 c2"
+
+                }]
+            }, {
+                "class": "fa fa-envelope",
+                "state": "app.business",
+                "text": "Mailbox-1",
+                "badge": {
+                    "color": "green",
+                    "text": "new"
+                }
+            }];
 
 
 

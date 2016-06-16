@@ -35,6 +35,27 @@
                         }
                     }
                 })
+            .state('app.widgets',
+                {
+                    url: '/widgets',
+                    templateUrl: 'app/dashboard/widgets/widgets.html',
+                    controller: 'dashboardController',
+                    controllerAs: 'vm',
+                    ncyBreadcrumb: {
+                        parent:'app',
+                        label: 'Widgets page'
+
+                    },
+                    resolve: {
+                        loadPlugin: function ($ocLazyLoad) {
+                            return $ocLazyLoad.load([
+                                {
+                                    files: ['app/common/infoBoxDirective.js']
+                                }
+                            ]);
+                        }
+                    }
+                })
         ;
   
     }
