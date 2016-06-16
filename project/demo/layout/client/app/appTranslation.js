@@ -13,31 +13,25 @@
     /* @ngInject */
     function Language( $translateProvider) {
 
-        var lang = window.localStorage.lang||'cn';
-        $translateProvider.preferredLanguage(lang);
-        $translateProvider.useStaticFilesLoader({
-            prefix: '/i18n/',
-            suffix: '.json'
-        });
+        // var lang = window.localStorage.lang||'zh';
+        // $translateProvider.preferredLanguage(lang);
+        //useStaticFilesLoader 方式需要添加client的前缀
+        // $translateProvider.useStaticFilesLoader({
+        //     prefix: '/client/app/i18n/',
+        //     suffix: '.json'
+        // });
+        //
+        // $translateProvider.registerAvailableLanguageKeys(['en', 'zh'], {
+        //     'en_US': 'en',
+        //     'en_UK': 'en',
+        //     'zh_CN': 'zh'
+        // });
 
-        //翻译会放到这里
-        $translateProvider.translations('en', {
-                partyId: 'partyId',
-                name: 'Name',
-                gender: 'gender',
-                height: 'height',
-                company: 'Company'
-            })
-            .translations('zh', {
-                Dashboard: '仪表盘',
-                name: '姓名',
-                gender: '性别',
-                height: '身高',
-                company: '公司',
-                query: '查询'
-            });
-
-        $translateProvider.preferredLanguage('zh');
+        $translateProvider.useUrlLoader('app/i18n/zh.json');
+        //auto determine preferred lang
+        $translateProvider.determinePreferredLanguage();
+        //when can not determine lang, choose en lang.
+        $translateProvider.fallbackLanguage('zh');
 
     }
 
