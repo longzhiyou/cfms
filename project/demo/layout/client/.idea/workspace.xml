@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383f036a-3e78-4a61-8246-991ba5901309" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/cfms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/i18n/en_US.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/i18n/zh.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/AppConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/AppModule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/AppStart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/AppTranslation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/business/Business.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/business/BusinessConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/business/BusinessController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/common/AuthService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/common/DataService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/core/AppCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/dashboard/Dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/dashboard/DashboardConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/dashboard/DashboardController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/data/sidebar.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/Layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/LayoutController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/footer/Footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/header/Header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/sidebar/sidebar.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/sidebar/sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/sidebar/sidebarController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/sidebar/sidebarMenu.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/layout/sidebar/treeview.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/login/Login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/login/LoginController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/rest/rest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/app/widget/Widget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/css/Widget.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/avatar04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/avatar5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/boxed-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/boxed-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/american-express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/cirrus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/mestro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/paypal2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/credit/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/default-50x50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user1-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user2-160x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user3-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user4-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user5-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user6-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user7-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/assets/img/user8-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/fis-conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-new/readme.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/appTranslation.js" afterPath="$PROJECT_DIR$/app/appTranslation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/layout/LayoutController.js" afterPath="$PROJECT_DIR$/app/layout/cLayoutController.js" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appTranslation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appTranslation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/appTranslation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cLayoutController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/layout/cLayoutController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -168,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="businessConfig.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/business/businessConfig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -347,6 +278,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -480,6 +457,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="383f036a-3e78-4a61-8246-991ba5901309" name="Default" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1465631885803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -499,7 +477,7 @@
       <workItem from="1466041435241" duration="219000" />
       <workItem from="1466042269023" duration="647000" />
       <workItem from="1466045683719" duration="659000" />
-      <workItem from="1466056581774" duration="3955000" />
+      <workItem from="1466056581774" duration="4085000" />
     </task>
     <task id="LOCAL-00001" summary="先增加初步的想法，以后会慢慢完善。">
       <created>1465634218289</created>
@@ -592,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466046299788</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="确定多语言功能，url动态加载.">
+      <created>1466060584961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1466060584961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49820000" />
+    <option name="totallyTimeSpent" value="49950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -604,9 +589,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.61028194" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.3897181" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32664436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32589287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32700893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32700893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -663,7 +649,9 @@
     <MESSAGE value="增加多语言的信息" />
     <MESSAGE value="修改文件命名方式第一个单词为小写" />
     <MESSAGE value="最后文件名全部修正为小写单词开头" />
-    <option name="LAST_COMMIT_MESSAGE" value="最后文件名全部修正为小写单词开头" />
+    <MESSAGE value="确定多语言功能，url动态加载." />
+    <option name="LAST_COMMIT_MESSAGE" value="确定多语言功能，url动态加载." />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,13 +794,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/AdminLTE/dist/css/AdminLTE.css" />
-    <entry file="file://$PROJECT_DIR$/app/layout/LayoutController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/layout/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -979,8 +960,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/appTranslation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="216">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/layout/cLayoutController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
       </provider>
