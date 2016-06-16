@@ -48,7 +48,7 @@
                         loadPlugin: function ($ocLazyLoad) {
                             return $ocLazyLoad.load([
                                 {
-                                    files: ['app/login/LoginController.js']
+                                    files: ['app/login/loginController.js']
                                 }
                             ]);
                         }
