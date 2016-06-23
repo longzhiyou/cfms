@@ -1,0 +1,104 @@
+<aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>Alexander Pierce</p>
+                <!-- Status -->
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+        </div>
+
+        <!-- sidebar menu: : style can be found in sidebar.less https://github.com/eyolas/angular-adminlte/blob/master/views/layout/sidebar.html-->
+        <ul class="sidebar-menu">
+
+
+
+
+        <!-- Sidebar Menu -->
+
+
+        <!-- sidebar menu: : style can be found in sidebar.less https://github.com/eyolas/angular-adminlte/blob/master/views/layout/sidebar.html-->
+        <ul class="sidebar-menu">
+            <li ng-repeat="menu in menus" ng-class="{'treeview': menu.children}" >
+
+                <!--叶子节点-->
+                <a ui-sref="{{menu.state}}" ng-if="menu.state">
+                    <i class="{{menu.class}}"></i>
+                    <span>{{menu.text | translate}}</span>
+                    <small class="badge pull-right bg-{{menu.badge.color || green}}" ng-if="menu.badge">{{menu.badge.text}}</small>
+                </a>
+                <!--父节点-->
+                <a href="#" ng-if="!menu.state">
+                    <i class="{{menu.class}}"></i>
+                    <span>{{menu.text | translate}}</span>
+                    <i class="fa fa-angle-left pull-right" ng-if="!menu.badge"></i>
+                    <small class="badge pull-right bg-{{menu.badge.color || green}}" ng-if="menu.badge">{{menu.badge.text}}</small>
+                </a>
+
+                <ul class="treeview-menu" ng-if="menu.children">
+
+                    <li ng-repeat="child in menu.children">
+                        <a ui-sref="{{child.state}}" ng-if="child.state">
+                            <i class="{{child.class}}"></i>
+                            <span>{{child.text}}</span>
+                            <small class="badge pull-right bg-{{child.badge.color || green}}" ng-if="child.badge">{{child.badge.text}}</small>
+                        </a>
+                        <a href="#" ng-if="!child.state">
+                            <i class="{{child.class}}"></i>
+                            <span>{{child.text}}</span>
+                            <i class="fa fa-angle-left pull-right" ng-if="!child.badge"></i>
+                            <small class="badge pull-right bg-{{child.badge.color || green}}" ng-if="child.badge">{{child.badge.text}}</small>
+                        </a>
+                        <ul class="treeview-menu" ng-if="child.children">
+                            <li ng-repeat="grandson in child.children">
+                                <a ui-sref="{{grandson.state}}"><i class="{{grandson.class}}"></i>{{grandson.text}}</a>
+                             </li>
+
+                        </ul>
+
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <!--&lt;!&ndash; Sidebar Menu &ndash;&gt;-->
+        <!--<ul class="sidebar-menu">-->
+            <!--<li class="header">HEADER</li>-->
+            <!--&lt;!&ndash; Optionally, you can add icons to the links &ndash;&gt;-->
+            <!--<li class="active">-->
+                <!--<a ui-sref="app.dashboard">-->
+                    <!--<i class="fa fa-link"></i>-->
+                    <!--<span>dashboard</span>-->
+                <!--</a>-->
+            <!--</li>-->
+
+            <!--<li>-->
+                <!--<a ui-sref="app.business">-->
+                    <!--<i class="fa fa-link"></i>-->
+                    <!--<span>business</span>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="treeview">-->
+                <!--<a href="#">-->
+                    <!--<i class="fa fa-link"></i>-->
+                    <!--<span>Multilevel</span>-->
+                    <!--<i class="fa fa-angle-left pull-right"></i>-->
+                <!--</a>-->
+                <!--<ul class="treeview-menu">-->
+                    <!--<li><a ui-sref="app.dashboard">Link in level 2 dashboard</a></li>-->
+                    <!--<li><a href="#">Link in level 2</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+        <!--</ul>-->
+        <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+</aside>
