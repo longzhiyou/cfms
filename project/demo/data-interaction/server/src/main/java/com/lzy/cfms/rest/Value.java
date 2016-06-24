@@ -7,9 +7,12 @@ package com.lzy.cfms.rest;
  */
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import javax.validation.constraints.NotNull;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Value {
 
+    @NotNull
     private Long id;
     private String quote;
 
