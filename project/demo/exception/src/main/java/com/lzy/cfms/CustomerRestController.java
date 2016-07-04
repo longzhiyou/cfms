@@ -31,8 +31,7 @@ public class CustomerRestController {
 
     @RequestMapping(value = "/usersJson"
             ,method = RequestMethod.POST
-            ,produces = { "application/json", "multipart/form-data", "application/x-www-form-urlencoded" }
-//            ,produces = { "application/json" }
+
     )
     public ResponseMessage addUserJson(CustomUser json){
 

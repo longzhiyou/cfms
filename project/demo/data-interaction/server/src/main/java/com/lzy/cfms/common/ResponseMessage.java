@@ -43,7 +43,7 @@ public class ResponseMessage {
         return data;
     }
 
-    public class Meta {
+    private static final class Meta {
 
         private boolean success;
         private String message;
