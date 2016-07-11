@@ -17,6 +17,7 @@ public class Pet  {
 
   /**
    **/
+  @SuppressWarnings("unused")
   @ApiModelProperty(required = true, value = "")
   @JsonProperty("id")
   public Long getId() {
@@ -28,6 +29,7 @@ public class Pet  {
 
   /**
    **/
+  @SuppressWarnings("unused")
   @ApiModelProperty(required = true, value = "")
   @JsonProperty("name")
   public String getName() {
@@ -39,11 +41,13 @@ public class Pet  {
 
   /**
    **/
+  @SuppressWarnings("unused")
   @ApiModelProperty(value = "")
   @JsonProperty("tag")
   public String getTag() {
     return tag;
   }
+  @SuppressWarnings("unused")
   public void setTag(String tag) {
     this.tag = tag;
   }

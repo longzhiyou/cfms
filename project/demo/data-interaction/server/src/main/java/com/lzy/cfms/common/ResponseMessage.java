@@ -1,7 +1,7 @@
 package com.lzy.cfms.common;
 
 /**
- * rest服务返回json格式的响应对象
+ * rest服务返回json格式的响应对象.
  *
  * @author [2016-06-23 add by longzhiyou]
  * @since 1.0.0
@@ -14,32 +14,32 @@ public class ResponseMessage {
     private Meta meta;
     private Object data;
 
-    public ResponseMessage success() {
+    public final ResponseMessage success() {
         this.meta = new Meta(true, OK);
         return this;
     }
 
-    public ResponseMessage success(Object data) {
+    public final ResponseMessage success(Object data) {
         this.meta = new Meta(true, OK);
         this.data = data;
         return this;
     }
 
-    public ResponseMessage failure() {
+    public final ResponseMessage failure() {
         this.meta = new Meta(false, ERROR);
         return this;
     }
 
-    public ResponseMessage failure(String message) {
+    public final ResponseMessage failure(String message) {
         this.meta = new Meta(false, message);
         return this;
     }
 
-    public Meta getMeta() {
+    public final Meta getMeta() {
         return meta;
     }
 
-    public Object getData() {
+    public final Object getData() {
         return data;
     }
 

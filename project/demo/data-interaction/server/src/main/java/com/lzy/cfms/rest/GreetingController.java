@@ -35,8 +35,7 @@ public class GreetingController {
     @RequestMapping("/person")
     public CustomPerson getPerson() {
 
-        CustomPerson person = new CustomPerson(100,"longzhiyou");
-        return  person;
+        return new CustomPerson(100,"longzhiyou");
 
     }
 

@@ -98,6 +98,22 @@
 
 	</dependencies>
 
+
+
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+
+                <!-- SERVER ON A REMOTE HOST -->
+                <sonar.host.url>http://192.168.1.11:9000</sonar.host.url>
+            </properties>
+        </profile>
+    </profiles>
+
 	<build>
 		<plugins>
 			<plugin>

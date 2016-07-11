@@ -3,12 +3,12 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="/a.dummy">
+        <entry key="/Dummy.txt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/README.md">
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
@@ -18,62 +18,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/CfmsApplication.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/common/ExceptionAdvice.java">
+        <entry key="$PROJECT_DIR$/sonar-project.properties">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/common/Response.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/common/ResponseMessage.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/CustomPerson.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/CustomUser.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/CustomerRestController.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/Greeting.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/GreetingController.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/GreetingException.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/Quote.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/rest/Value.java">
           <value>
             <set />
           </value>
@@ -84,6 +34,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/security/WebMvcConfigurer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lzy/cfms/swagger/model/Pet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/lzy/cfms/CfmsApplicationTests.java">
           <value>
             <set />
           </value>
